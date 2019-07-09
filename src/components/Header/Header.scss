@@ -1,0 +1,38 @@
+.button {
+  background-color: $color-secondary;
+  opacity: 0.75;
+  border: 0;
+  border-radius: 35px;
+  padding: 5px 50px 5px 50px;
+  margin-top: 20px;
+  font-size: $font-size-regular;
+  color: $color-white;
+  font-weight: $font-size-regular;
+
+  :hover {
+    opacity: 0.75;
+  }
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.headerImg__wrapper {
+  display: grid;
+  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(16, 1fr);
+  max-width: 360px;
+}
+
+.profile__img {
+  width: 100%;
+  grid-column: 1/14;
+  grid-row: 1/14;
+}
+.profile_circle {
+  grid-column: 6 / 16;
+  grid-row: 5 / 15;
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-content: space-between;
+  font-size: $font-size-small;
+}
+nav ul li button {
+  font-size: $font-size-small;
+}
+
+nav ul li button,
+nav ul span,
+ul li {
+  font-weight: $font-weight-light;
+  color: $color-black;
+
+  :visited {
+    color: $color-black;
+  }
+  :hover {
+    color: $color-secondary;
+  }
+}
+
+.mainNav--container {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: 1.5rem;
+}
+
+.lang__items--container {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  grid-gap: 1rem;
+}
+
+.i18n__button__active {
+  font-weight: $font-weight-regular;
+  color: $color-secondary;
+}

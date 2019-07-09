@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Montserrat', Helvetica, Arial, Verdana, Tahoma;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: $font-size-regular;
+  font-weight: $font-weight-regular;
+  background-color: $color-grey;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+//button reset
+button {
+  cursor: pointer;
+  display: inline-block;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background-image: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-size: $font-size-large;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-small;
+  letter-spacing: $letter-spacing-regular;
+  color: $color-black;
+  @include respond(tab-port) {
+    font-size: $font-size-large;
+  }
+  span {
+    color: $color-secondary;
+  }
+}
+
+p {
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+  line-height: $line-height-regular;
+  letter-spacing: $letter-spacing-large;
+  color: $color-black;
+  @include respond(tab-port) {
+    font-size: $font-size-regular;
+  }
+}
+
+.nav,
+.header,
+.main {
+  padding: 2% 15% 2% 15%;
+}

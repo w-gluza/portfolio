@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "about": "Om mig",
+    "projects": "Projekter",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "h1": "DK Hi, I am ",
+    "h1Span": "Wioletta ",
+    "h1End": "Frontend Developer",
+    "p": "Let's create something cool together",
+    "button": "Say Hi!"
+  },
+  "about": {
+    "h2": "DK Hi, I am ",
+    "h2Span": "Wioletta ",
+    "p1": "Enthusiastic Front-End Developer based in Copenhagen, I'm curious about lates technologies and UI.",
+    "p2": "Fulltime Web Development student with the Multimedia Design background. Currently, I am open for new opportunities both remote and onsite in Copenhagen.",
+    "p3": "Check my GitHub and say hi!"
+  },
+  "contact": {
+    "h4": "Say Hi!",
+    "p": "Let's create something cool together",
+    "mail": "Mail: ",
+    "cvr": "CVR: ",
+    "address": "Adres: ",
+    "location": "København, Danmark"
+  },
+  "footer": {
+    "GitHubAlt": "Link to my Github site",
+    "CVAlt": "Link to CV in pdf",
+    "LinkedInAlt": "Link to my LinkedIn site"
+  }
+}
