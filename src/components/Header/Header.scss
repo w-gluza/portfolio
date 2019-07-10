@@ -17,13 +17,15 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  align-items: center;
 }
 
 .headerImg__wrapper {
   display: grid;
   grid-template-rows: repeat(16, 1fr);
   grid-template-columns: repeat(16, 1fr);
-  max-width: 360px;
+  max-width: 420px;
 }
 
 .profile__img {
@@ -33,6 +35,6 @@
 }
 .profile_circle {
   grid-column: 6 / 16;
-  grid-row: 5 / 15;
+  grid-row: 4 / 15;
   width: 100%;
 }

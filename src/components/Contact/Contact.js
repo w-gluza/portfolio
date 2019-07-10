@@ -21,15 +21,15 @@ class Contact extends Component {
           <h4> {this.props.t('contact.h4')}</h4>
           <address>
             <p>
-              {this.props.t('contact.mail')}
+              <span>{this.props.t('contact.mail')}</span>
               <a href="mailto:wiolagluza@gmail.com.com">wiolagluza@gmail.com</a>
             </p>
             <p>
-              {this.props.t('contact.cvr')}
+              <span>{this.props.t('contact.cvr')}</span>
               40171193
             </p>
             <p>
-              {this.props.t('contact.address')}
+              <span>{this.props.t('contact.address')}</span>
               {this.props.t('contact.location')}
             </p>
           </address>

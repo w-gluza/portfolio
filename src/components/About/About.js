@@ -4,7 +4,14 @@ import { withTranslation } from 'react-i18next';
 class About extends Component {
   render() {
     return (
-      <section>
+      <section className="section">
+        <div>
+          <img
+            className="aboutShapes"
+            src="./img/aboutShapes.svg"
+            alt="decorative shapes"
+          />
+        </div>
         <div>
           <h2>
             {this.props.t('about.h2')}
@@ -13,7 +20,6 @@ class About extends Component {
           <p>{this.props.t('about.p1')}</p>
           <p>{this.props.t('about.p2')}</p>
           <p>{this.props.t('about.p3')}</p>
-          <p> test </p>
         </div>
       </section>
     );

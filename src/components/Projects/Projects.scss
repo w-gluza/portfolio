@@ -1,22 +1,21 @@
-.projects {
-  padding-top: 10vh;
-}
 .article {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: end;
+  margin-bottom: 10rem;
 }
 
 // left side project
 .project__wrapper {
   display: grid;
-  grid-template-rows: minmax(40px, 1fr) repeat(5, 1fr); // 360px
+  grid-template-rows: minmax(40px, 1fr) repeat(4, 1fr); // 360px
   grid-template-columns: repeat(6, 1fr) minmax(40px, 1fr) 1fr; // 480px
 }
 
 // right side project
 .project__wrapper-mod {
   display: grid;
-  grid-template-rows: minmax(40px, 1fr) repeat(5, 1fr); // 360px
+  grid-template-rows: minmax(40px, 1fr) repeat(4, 1fr); // 360px
   grid-template-columns: minmax(40px, 1fr) repeat(7, 1fr); // 480px
 }
 .img {
@@ -55,4 +54,20 @@
 
 .svg__vert {
   width: 100%;
+}
+
+.project-icons--container {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  height: 100%;
+}
+
+.project__icon {
+  fill: $color-secondary;
+  height: 4.5rem;
+  width: 4.5rem;
+
+  :hover {
+    fill: $color-primary;
+  }
 }

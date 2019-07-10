@@ -2,10 +2,10 @@
   display: grid;
   grid-template-columns: 1fr max-content;
   justify-content: space-between;
-  font-size: $font-size-small;
+  font-size: $font-size-regular;
 }
 nav ul li button {
-  font-size: $font-size-small;
+  font-size: $font-size-regular;
 }
 
 nav ul li button,

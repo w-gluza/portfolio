@@ -3,7 +3,7 @@
   background-color: $color-primary;
   display: grid;
   justify-items: center;
-  height: 5rem;
+  height: 7rem;
 }
 
 .footer-icons--container {
@@ -14,8 +14,8 @@
 
 .footer__icon {
   fill: $color-secondary;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
   align-self: center;
 
   :hover {
