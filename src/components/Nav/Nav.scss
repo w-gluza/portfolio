@@ -23,18 +23,79 @@ ul li {
 }
 
 .mainNav--container {
-  display: grid;
-  grid-template-columns: repeat(3, max-content);
-  grid-gap: 1.5rem;
+  display: none;
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: 1.5rem;
+  }
 }
 
 .lang__items--container {
-  display: grid;
-  grid-template-columns: repeat(5, max-content);
-  grid-gap: 1rem;
+  display: none;
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    grid-gap: 1rem;
+  }
 }
 
 .i18n__button__active {
   font-weight: $font-weight-regular;
   color: $color-secondary;
+}
+
+.wrapper {
+  @include respond(tab-land) {
+    display: none;
+  }
+}
+.overlay {
+  background-color: $color-white;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+.label {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  background-color: yellow;
+}
+.burger__line--test {
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  left: 9px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: blue;
+}
+.burger__line {
+  display: block;
+  width: 17px;
+  height: 1px;
+  background: purple;
+  position: absolute;
+  left: 7px;
+  z-index: 3;
+}
+
+.burger__line--bottom {
+  bottom: 14px;
+  transform: translateY(-3px);
+}
+.burger__line--top {
+  top: 14px;
+  transform: rotate(45deg);
+  transform: translateY(3px);
 }

@@ -33,25 +33,19 @@ a:active {
 button {
   cursor: pointer;
   display: inline-block;
-  -ms-touch-action: manipulation;
+  user-select: none;
   touch-action: manipulation;
   background-image: none;
   text-align: center;
   vertical-align: middle;
   white-space: nowrap;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  overflow: hidden;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-size: $font-size-large;
+  font-size: $font-size-regular;
   font-weight: $font-weight-bold;
   line-height: $line-height-small;
   letter-spacing: $letter-spacing-regular;
@@ -66,7 +60,7 @@ h4 {
 }
 
 p {
-  font-size: $font-size-regular;
+  font-size: $font-size-small;
   font-weight: $font-weight-light;
   line-height: $line-height-regular;
   letter-spacing: $letter-spacing-large;
@@ -85,16 +79,18 @@ p {
 .nav,
 .header,
 .main {
-  padding: 2% 15% 2% 15%;
-}
-.main {
-  display: grid;
-  grid-template-rows: 100vh auto 80vh;
+  padding: 2% 10% 2% 10%;
 }
 
-.nav {
-  height: 20vh;
-}
-.header {
-  height: 80vh;
+// Grids
+
+.header,
+.about,
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

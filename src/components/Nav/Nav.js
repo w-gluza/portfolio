@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { withTranslation } from 'react-i18next';
 
 class Nav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { isOpen: false };
+  }
+  toggleMenu() {
+    this.setState({ isOpen: !this.state.isOpen });
+  }
   render() {
     const { i18n } = this.props;
     return (
@@ -51,6 +58,20 @@ class Nav extends Component {
             </button>
           </li>
         </ul>
+        <div className="wrapper">
+          {this.state.isOpen && <div className="overlay">sidebar</div>}
+          <div className="label">
+            <button onClick={() => this.toggleMenu()}>
+              <span className="burger__line--test">
+                <span className="burger__line burger__line--top"></span>
+              </span>
+              <span className="burger__line--test">
+                <span className="burger__line burger__line--bottom"></span>
+              </span>
+            </button>
+          </div>
+          {/* <div class="main-content">content</div> */}
+        </div>
       </nav>
     );
   }

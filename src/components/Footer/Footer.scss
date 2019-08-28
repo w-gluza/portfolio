@@ -10,12 +10,13 @@
   display: grid;
   grid-template-columns: repeat(3, max-content);
   height: 100%;
+  grid-gap: 2rem;
 }
 
 .footer__icon {
   fill: $color-secondary;
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 4rem;
+  width: 4rem;
   align-self: center;
 
   :hover {

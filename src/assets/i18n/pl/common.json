@@ -5,18 +5,18 @@
     "contact": "Kontakt"
   },
   "header": {
-    "h1": "PL Hi, I am ",
-    "h1Span": "Wioletta ",
-    "h1End": "Frontend Developer",
-    "p": "Let's create something cool together",
-    "button": "Say Hi!"
+    "h1": "Cześć, jestem ",
+    "h1Span": "Wiola ",
+    "h1End": "Jestem Frontend Developerem",
+    "p": "Stwórzy razem coś fajnego",
+    "button": "Kontakt!"
   },
   "about": {
-    "h2": "PL Hi, I am ",
-    "h2Span": "Wioletta ",
+    "h2": "Cześć, jestem ",
+    "h2Span": "Wiola ",
     "p1": "Enthusiastic Front-End Developer based in Copenhagen, I'm curious about lates technologies and UI.",
     "p2": "Fulltime Web Development student with the Multimedia Design background. Currently, I am open for new opportunities both remote and onsite in Copenhagen.",
-    "p3": "Check my GitHub and say hi!"
+    "p3": "Sprawdź moje projekty"
   },
   "contact": {
     "h4": "Say Hi!",

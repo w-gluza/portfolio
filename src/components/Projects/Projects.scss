@@ -1,8 +1,25 @@
 .article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: end;
   margin-bottom: 10rem;
+
+  @include respond(tab-land) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.article-mod {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+  margin-bottom: 10rem;
+
+  @include respond(tab-land) {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 // left side project
@@ -60,12 +77,13 @@
   display: grid;
   grid-template-columns: repeat(2, max-content);
   height: 100%;
+  grid-gap: 1rem;
 }
 
 .project__icon {
   fill: $color-secondary;
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 4rem;
+  width: 4rem;
 
   :hover {
     fill: $color-primary;

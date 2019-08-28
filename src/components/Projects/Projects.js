@@ -26,12 +26,21 @@ class Projects extends Component {
           </div>
 
           <div>
-            <h3>React Dashboard</h3>
+            <h3>React Business Dashboard</h3>
             <p>Let’s create something cool together!</p>
             <div className="project-icons--container">
               <a
-                href="https://github.com/w-gluza/"
-                title="My GitHub portfolio"
+                href="https://w-gluza.github.io/dash/"
+                title="Business Dashboard Live Preview"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project__icon"
+              >
+                <Icon name="Live" alt={this.props.t('footer.GitHubAlt')} />
+              </a>
+              <a
+                href="https://github.com/w-gluza/dash"
+                title="Business Dashboard GitHub Repository"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -42,11 +51,7 @@ class Projects extends Component {
           </div>
         </article>
 
-        <article className="article">
-          <div className="project__description">
-            <h3>React Dashboard</h3>
-            <p>Let’s create something cool together!</p>
-          </div>
+        <article className="article-mod">
           <div className="project__wrapper-mod">
             <img
               className="img img-mod"
@@ -67,6 +72,13 @@ class Projects extends Component {
                 alt="ssomethig"
               />
             </div>
+          </div>
+          <div className="project__description">
+            <h3>Angular App</h3>
+            <p>
+              Designed using Figma and developed with Angular 2+, Firebase and
+              Material Design.
+            </p>
           </div>
         </article>
 
@@ -90,16 +102,12 @@ class Projects extends Component {
           </div>
 
           <div className="project__description">
-            <h3>React Dashboard</h3>
+            <h3>TV Dashboard</h3>
             <p>Let’s create something cool together!</p>
           </div>
         </article>
 
-        <article className="article">
-          <div className="project__description">
-            <h3>React Dashboard</h3>
-            <p>Let’s create something cool together!</p>
-          </div>
+        <article className="article-mod">
           <div className="project__wrapper-mod">
             <img
               className="img img-mod"
@@ -120,6 +128,13 @@ class Projects extends Component {
                 alt="ssomethig"
               />
             </div>
+          </div>
+          <div className="project__description">
+            <h3>Weather App</h3>
+            <p>
+              Designed using Figma and developed with Angular 2+, Firebase and
+              Material Design.
+            </p>
           </div>
         </article>
       </section>
