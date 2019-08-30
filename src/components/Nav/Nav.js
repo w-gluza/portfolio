@@ -59,17 +59,47 @@ class Nav extends Component {
           </li>
         </ul>
         <div className="wrapper">
-          {this.state.isOpen && <div className="overlay">sidebar</div>}
-          <div className="label">
-            <button onClick={() => this.toggleMenu()}>
-              <span className="burger__line--test">
-                <span className="burger__line burger__line--top"></span>
-              </span>
-              <span className="burger__line--test">
-                <span className="burger__line burger__line--bottom"></span>
-              </span>
-            </button>
-          </div>
+          {this.state.isOpen && (
+            <div className="overlay">
+              <ul className="mobileNav">
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          )}
+          <button className="burger" onClick={() => this.toggleMenu()}>
+            <span
+              className={
+                this.state.isOpen
+                  ? 'burger__line--wrapper burger__top__rotated'
+                  : 'burger__line--wrapper'
+              }
+            >
+              <span
+                className={
+                  this.state.isOpen
+                    ? 'burger__line burger__line__top--mod'
+                    : 'burger__line burger__line__top'
+                }
+              ></span>
+            </span>
+            <span
+              className={
+                this.state.isOpen
+                  ? 'burger__line--wrapper burger__bottom__rotated'
+                  : 'burger__line--wrapper'
+              }
+            >
+              <span
+                className={
+                  this.state.isOpen
+                    ? 'burger__line burger__line__bottom--mod'
+                    : 'burger__line burger__line__bottom'
+                }
+              ></span>
+            </span>
+          </button>
           {/* <div class="main-content">content</div> */}
         </div>
       </nav>

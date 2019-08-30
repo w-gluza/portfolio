@@ -49,6 +49,12 @@ ul li {
   @include respond(tab-land) {
     display: none;
   }
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 48px;
+  border-bottom: none;
 }
 .overlay {
   background-color: $color-white;
@@ -60,7 +66,7 @@ ul li {
   overflow: hidden;
   transition: opacity 0.2s;
 }
-.label {
+.burger {
   display: block;
   position: absolute;
   z-index: 1;
@@ -70,32 +76,60 @@ ul li {
   cursor: pointer;
   background-color: yellow;
 }
-.burger__line--test {
+.burger__line--wrapper {
   position: absolute;
   z-index: 2;
   top: 9px;
   left: 9px;
   width: 30px;
   height: 30px;
-  display: block;
-  background-color: blue;
 }
+
+.burger__top__rotated {
+  transform: rotate(45deg);
+  transition: transform 0.3s cubic-bezier(0.05, 0.05, 0.1, 0.95) 0.1s;
+}
+.burger__bottom__rotated {
+  transform: rotate(-45deg);
+  transition: transform 0.3s cubic-bezier(0.05, 0.05, 0.1, 0.95) 0.1s;
+}
+
 .burger__line {
   display: block;
   width: 17px;
   height: 1px;
-  background: purple;
+  background: $color-black;
   position: absolute;
   left: 7px;
   z-index: 3;
 }
 
-.burger__line--bottom {
+.burger__line__top {
+  top: 14px;
+  transform: translateY(3px);
+  transition: transform 0.3s cubic-bezier(0.05, 0.05, 0.1, 0.95);
+}
+.burger__line__top--mod {
+  top: 14px;
+  transform: translateY(0px);
+}
+
+.burger__line__bottom {
   bottom: 14px;
   transform: translateY(-3px);
+  transition: transform 0.3s cubic-bezier(0.05, 0.05, 0.1, 0.95);
 }
-.burger__line--top {
-  top: 14px;
-  transform: rotate(45deg);
-  transform: translateY(3px);
+
+.burger__line__bottom--mod {
+  bottom: 14px;
+  transform: translateY(0px);
+}
+
+/// mobile nav
+
+.mobileNav {
+  display: grid;
+  margin-top: 48px;
+  grid-gap: 2rem;
+  justify-items: center;
 }
