@@ -12,7 +12,14 @@ class Nav extends Component {
   }
   toggleMenu() {
     this.setState({ isOpen: !this.state.isOpen });
+    if (this.state.isOpen === false) {
+      console.log('true');
+      document.body.classList.add('hidden');
+    } else {
+      document.body.classList.remove('hidden');
+    }
   }
+
   render() {
     return (
       <nav className={this.state.isOpen ? 'mobileNav' : 'navDesktop'}>
