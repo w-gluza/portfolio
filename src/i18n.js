@@ -26,6 +26,9 @@ i18n
         common: common_pl
       }
     },
+    react: {
+      useSuspense: false
+    },
     interpolation: {
       escapeValue: false // not needed for react as it escapes by default
     }
