@@ -13,10 +13,10 @@
   },
   "about": {
     "h2": "Cześć, jestem ",
-    "h2Span": "Wiola ",
+    "h2Span": "Wiola. ",
     "p1": "Enthusiastic Front-End Developer based in Copenhagen, I'm curious about lates technologies and UI.",
     "p2": "Fulltime Web Development student with the Multimedia Design background. Currently, I am open for new opportunities both remote and onsite in Copenhagen.",
-    "p3": "Sprawdź moje projekty"
+    "p3": "Sprawdź moje projekty!"
   },
   "contact": {
     "h4": "Say ",
@@ -32,7 +32,7 @@
     "project1_h3Span": "Dashboard ",
     "project1_p": "Dashboard design for sms communication platform created in React.",
     "project2_h3": "Angular ",
-    "project2_h3Span": "Platform",
+    "project2_h3Span": "Projekt",
     "project2_p": "Designed using Figma and developed with Angular 2+, Firebase and Material Design.",
     "project3_h3": "API ",
     "project3_h3Span": "Hacker News",
