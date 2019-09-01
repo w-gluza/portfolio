@@ -12,7 +12,9 @@ class Header extends Component {
             {this.props.t('header.h1End')}
           </h1>
           <p>{this.props.t('header.p')}</p>
-          <button className="button">{this.props.t('header.button')}</button>
+          <a href="#contact" className="button">
+            {this.props.t('header.button')}
+          </a>
         </div>
         <div className="headerImg__wrapper">
           <img

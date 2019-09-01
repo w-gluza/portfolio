@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 class About extends Component {
   render() {
     return (
-      <section className="about">
+      <section className="about" id="about">
         <div>
           <img
             className="aboutShapes"

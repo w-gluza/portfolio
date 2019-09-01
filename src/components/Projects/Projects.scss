@@ -1,4 +1,4 @@
-.article {
+.project {
   display: grid;
   grid-template-columns: 1fr;
   align-items: end;
@@ -9,33 +9,23 @@
   }
 }
 
-.article-mod {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: end;
-  margin-bottom: 10rem;
-
-  @include respond(tab-land) {
-    grid-template-columns: 1fr 1fr;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
-
-// left side project
-.project__wrapper {
+// Project figure including svg decorators and mockup
+.project__figure {
   display: grid;
   grid-template-rows: minmax(40px, 1fr) repeat(4, 1fr); // 360px
   grid-template-columns: repeat(6, 1fr) minmax(40px, 1fr) 1fr; // 480px
 }
 
-// right side project
-.project__wrapper-mod {
+.project__figure--mod {
   display: grid;
   grid-template-rows: minmax(40px, 1fr) repeat(4, 1fr); // 360px
   grid-template-columns: minmax(40px, 1fr) repeat(7, 1fr); // 480px
+  @include respond(tab-land) {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
-.img {
+.project__mockup {
   grid-column: 1 / 7;
   grid-row: 2 / 6;
   width: 100%;
@@ -73,6 +63,13 @@
   width: 100%;
 }
 
+// Project decscription including svg icons
+.project__description {
+  margin-top: 5rem;
+  @include respond(tab-land) {
+    margin-top: 0rem;
+  }
+}
 .project-icons--container {
   display: grid;
   grid-template-columns: repeat(2, max-content);

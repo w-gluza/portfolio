@@ -10,7 +10,9 @@
   font-family: 'Montserrat', Helvetica, Arial, Verdana, Tahoma;
   font-style: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   height: 100%;
@@ -77,9 +79,9 @@ p {
 }
 
 .navDesktop,
-.header,
+header,
 .main {
-  padding: 2% 10% 2% 10%;
+  padding: 0% 10% 0% 10%;
 }
 
 // Grids
@@ -92,5 +94,16 @@ p {
   @include respond(tab-land) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
+}
+.header {
+  min-height: calc(100vh - 48px);
+  justify-items: center;
+}
+.about {
+  min-height: 100vh;
+}
+.contact {
+  min-height: calc(100vh - 7rem);
 }

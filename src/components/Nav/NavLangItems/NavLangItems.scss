@@ -15,6 +15,10 @@
     display: none;
   }
 }
+.NavLangItems__container,
+.NavLangItems__container--mob {
+  align-items: end;
+}
 
 .i18n__button__active {
   font-weight: $font-weight-regular;

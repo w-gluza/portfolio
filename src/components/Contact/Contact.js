@@ -4,7 +4,7 @@ import { withTranslation } from 'react-i18next';
 class Contact extends Component {
   render() {
     return (
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="headerImg__wrapper">
           <img
             className="profile_circle"
