@@ -30,8 +30,11 @@ class Projects extends Component {
           </figure>
 
           <section className="project__description">
-            <h3>React Business Dashboard</h3>
-            <p>Let’s create something cool together!</p>
+            <h3>
+              {this.props.t('projects.project1_h3')}
+              <span>{this.props.t('projects.project1_h3Span')}</span>
+            </h3>
+            <p>{this.props.t('projects.project1_p')}</p>
             <div className="project-icons--container">
               <a
                 href="https://w-gluza.github.io/dash/"
@@ -78,11 +81,12 @@ class Projects extends Component {
             </div>
           </figure>
           <section className="project__description">
-            <h3>Angular App</h3>
-            <p>
-              Designed using Figma and developed with Angular 2+, Firebase and
-              Material Design.
-            </p>
+            <h3>
+              {this.props.t('projects.project2_h3')}
+              <span>{this.props.t('projects.project2_h3Span')}</span>
+            </h3>
+            <p>{this.props.t('projects.project2_p')}</p>
+
             <div className="project-icons--container">
               <a
                 href="https://unibrew.firebaseapp.com/"
@@ -130,11 +134,12 @@ class Projects extends Component {
           </figure>
 
           <section className="project__description">
-            <h3>Hacker News Reader</h3>
-            <p>
-              Because of browser security policies, not all websites will show
-              in the iframe!
-            </p>
+            <h3>
+              {this.props.t('projects.project3_h3')}
+              <span>{this.props.t('projects.project3_h3Span')}</span>
+            </h3>
+            <p>{this.props.t('projects.project3_p')}</p>
+
             <div className="project-icons--container">
               <a
                 href="https://w-gluza.github.io/hackernews/"
@@ -181,12 +186,12 @@ class Projects extends Component {
             </div>
           </figure>
           <section className="project__description">
-            <h3>TV Dashboard</h3>
-            <p>
-              The idea of a project was to recreate PSD file in the most
-              accurate way. Dashboard is intended to work only on one specific
-              type of device.
-            </p>
+            <h3>
+              {this.props.t('projects.project4_h3')}
+              <span>{this.props.t('projects.project4_h3Span')}</span>
+            </h3>
+            <p>{this.props.t('projects.project4_p')}</p>
+
             <div className="project-icons--container">
               <a
                 href="https://w-gluza.github.io/TVdashFlex/"

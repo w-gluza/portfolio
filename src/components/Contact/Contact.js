@@ -18,7 +18,11 @@ class Contact extends Component {
           />
         </div>
         <div>
-          <h4> {this.props.t('contact.h4')}</h4>
+          <h4>
+            {' '}
+            {this.props.t('contact.h4')}
+            <span>{this.props.t('contact.h4Span')}</span>
+          </h4>
           <address>
             <p>
               <span>{this.props.t('contact.mail')}</span>

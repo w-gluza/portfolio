@@ -19,12 +19,27 @@
     "p3": "Sprawdź moje projekty"
   },
   "contact": {
-    "h4": "Say Hi!",
+    "h4": "Say ",
+    "h4Span": "Hi!",
     "p": "Let's create something cool together",
     "mail": "Mail: ",
     "cvr": "Numer Firmy: ",
     "address": "Adres: ",
     "location": "Kopenhaga, Dania"
+  },
+  "projects": {
+    "project1_h3": "React ",
+    "project1_h3Span": "Dashboard ",
+    "project1_p": "Dashboard design for sms communication platform created in React.",
+    "project2_h3": "Angular ",
+    "project2_h3Span": "Platform",
+    "project2_p": "Designed using Figma and developed with Angular 2+, Firebase and Material Design.",
+    "project3_h3": "API ",
+    "project3_h3Span": "Hacker News",
+    "project3_p": "Hacker News clone using YCombinator API build in React and styled-components",
+    "project4_h3": "JavaScript ",
+    "project4_h3Span": "Dashboard ",
+    "project4_p": "TV dashboard idea to build up JavaScript skills and play with browsertesting tools."
   },
   "footer": {
     "GitHubAlt": "Link to my Github site",
