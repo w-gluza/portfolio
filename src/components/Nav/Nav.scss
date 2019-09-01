@@ -1,11 +1,10 @@
 .navBar {
   width: 100%;
   min-height: 4.8rem;
-  background-color: green;
   z-index: 9;
 }
 .navDesktop {
-  // min-height: 4.8rem;
+  min-height: 4.8rem;
   @include respond(tab-land) {
     display: grid;
     grid-template-columns: 1fr max-content;
@@ -33,15 +32,15 @@ ul li {
 
 /// mobile nav
 
-.mobileNav {
-  display: grid;
-  grid-gap: 2rem;
-  justify-items: center;
-  height: 100%;
-  background-color: red;
-  min-height: 100%;
-}
-
 .hidden {
   overflow: hidden;
+}
+.mobileNav {
+  display: grid;
+  grid-gap: 10rem;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  height: 100vh;
+  transition: 2s ease;
 }

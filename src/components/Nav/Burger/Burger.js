@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import { withTranslation } from 'react-i18next';
-import NavMainItems from '../NavMainItems/NavMainItems';
-import NavLangItems from '../NavLangItems/NavLangItems';
 
 class Nav extends Component {
   render() {
     return (
       <div className="wrapper">
-        {this.props.isOpen && (
-          <div className="overlay">
-            <NavMainItems />
-            <NavLangItems />
-          </div>
-        )}
+        {/* {this.props.isOpen && <div className="overlay"></div>} */}
         <button className="burger" onClick={this.props.toggleMenu}>
           <span
             className={
