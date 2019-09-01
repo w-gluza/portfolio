@@ -2,6 +2,10 @@
 @import './sass/base.scss';
 
 @import './components/Nav/Nav.scss';
+@import './components/Nav/Burger/Burger.scss';
+@import './components/Nav/NavLangItems/NavLangItems.scss';
+@import './components/Nav/NavMainItems/NavMainItems.scss';
+
 @import './components/Header/Header.scss';
 @import './components/About/About.scss';
 @import './components/Projects/Projects.scss';

@@ -1,0 +1,22 @@
+.NavLangItems__container {
+  display: none;
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    grid-gap: 1rem;
+  }
+}
+.NavLangItems__container--mob {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  grid-gap: 1.5rem;
+  z-index: 999;
+  @include respond(tab-land) {
+    display: none;
+  }
+}
+
+.i18n__button__active {
+  font-weight: $font-weight-regular;
+  color: $color-secondary;
+}

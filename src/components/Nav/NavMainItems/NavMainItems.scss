@@ -1,0 +1,18 @@
+.NavMainItems__container {
+  display: none;
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: 1.5rem;
+  }
+}
+
+.NavMainItems__container--mob {
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+  grid-gap: 1.5rem;
+  z-index: 999;
+  @include respond(tab-land) {
+    display: none;
+  }
+}
