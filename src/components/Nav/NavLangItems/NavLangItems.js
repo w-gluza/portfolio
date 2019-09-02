@@ -6,11 +6,7 @@ class NavLangItems extends Component {
     const { i18n } = this.props;
     return (
       <ul
-        className={
-          this.props.isOpen
-            ? 'NavLangItems__container--mob'
-            : 'NavLangItems__container'
-        }
+        className="nav__visible NavLangItems__toggle--open"
         role="menubar"
         aria-label="Languages Menu"
       >

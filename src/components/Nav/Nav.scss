@@ -1,17 +1,29 @@
-.navBar {
-  width: 100%;
-  min-height: $navbar-height;
-  z-index: 9;
-}
-.navDesktop {
-  min-height: $navbar-height;
+.nav__toggle--open {
+  display: grid;
+  grid-gap: 10rem;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  min-height: 100vh;
+
   @include respond(tab-land) {
+    min-height: $navbar-height;
     display: grid;
-    grid-template-columns: 1fr max-content;
+    grid-template-columns: max-content max-content;
     justify-content: space-between;
     font-size: $font-size-regular;
   }
 }
+.nav__toggle--closed {
+  min-height: $navbar-height;
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    font-size: $font-size-regular;
+  }
+}
+
 nav ul li button {
   font-size: $font-size-regular;
 }
@@ -37,13 +49,4 @@ ul li {
   @include respond(tab-land) {
     overflow: visible;
   }
-}
-.mobileNav {
-  display: grid;
-  grid-gap: 10rem;
-  align-content: center;
-  justify-items: center;
-  text-align: center;
-  height: 100vh;
-  transition: 2s ease;
 }

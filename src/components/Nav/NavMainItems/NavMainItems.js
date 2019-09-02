@@ -4,15 +4,7 @@ import { withTranslation } from 'react-i18next';
 class NavMainItems extends Component {
   render() {
     return (
-      <ul
-        className={
-          this.props.isOpen
-            ? 'NavMainItems__container--mob'
-            : 'NavMainItems__container'
-        }
-        role="menubar"
-        aria-label="Sections Menu"
-      >
+      <ul className="nav__visible NavMainItems__toggle--open">
         <li role="none" onClick={this.props.toggleMenu}>
           <a role="menuitem" href="#about">
             {this.props.t('nav.about')}
