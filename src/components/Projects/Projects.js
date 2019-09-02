@@ -21,11 +21,7 @@ class Projects extends Component {
               />
             </div>
             <div className="svg__vert__container">
-              <img
-                className="svg__vert"
-                src="./img/squaresVertical.svg"
-                alt="ssomethig"
-              />
+              <img src="./img/squaresVertical.svg" alt="ssomethig" />
             </div>
           </figure>
 
@@ -73,11 +69,7 @@ class Projects extends Component {
               />
             </div>
             <div className="svg__vert__container-mod">
-              <img
-                className="svg__vert"
-                src="./img/circlesVertical.svg"
-                alt="ssomethig"
-              />
+              <img src="./img/circlesVertical.svg" alt="ssomethig" />
             </div>
           </figure>
           <section className="project__description">
@@ -125,11 +117,7 @@ class Projects extends Component {
               />
             </div>
             <div className="svg__vert__container">
-              <img
-                className="svg__vert"
-                src="./img/squaresVertical.svg"
-                alt="ssomethig"
-              />
+              <img src="./img/squaresVertical.svg" alt="ssomethig" />
             </div>
           </figure>
 
@@ -178,11 +166,7 @@ class Projects extends Component {
               />
             </div>
             <div className="svg__vert__container-mod">
-              <img
-                className="svg__vert"
-                src="./img/circlesVertical.svg"
-                alt="ssomethig"
-              />
+              <img src="./img/circlesVertical.svg" alt="ssomethig" />
             </div>
           </figure>
           <section className="project__description">

@@ -3,6 +3,7 @@
   grid-template-columns: 1fr;
   align-items: end;
   margin-bottom: 10rem;
+  grid-gap: 10rem;
 
   @include respond(tab-land) {
     grid-template-columns: 1fr 1fr;
@@ -12,21 +13,21 @@
 // Project figure including svg decorators and mockup
 .project__figure {
   display: grid;
-  grid-template-rows: minmax(40px, 1fr) repeat(4, 1fr); // 360px
-  grid-template-columns: repeat(6, 1fr) minmax(40px, 1fr) 1fr; // 480px
+  grid-template-rows: 6rem repeat(4, 1fr); // 360px
+  grid-template-columns: repeat(7, 1fr) 6rem; // 480px
 }
 
 .project__figure--mod {
   display: grid;
-  grid-template-rows: minmax(40px, 1fr) repeat(4, 1fr); // 360px
-  grid-template-columns: minmax(40px, 1fr) repeat(7, 1fr); // 480px
+  grid-template-rows: 6rem repeat(4, 1fr); // 360px
+  grid-template-columns: 6rem repeat(7, 1fr); // 480px
   @include respond(tab-land) {
     grid-column: 2;
     grid-row: 1;
   }
 }
 .project__mockup {
-  grid-column: 1 / 7;
+  grid-column: 1 / 8;
   grid-row: 2 / 6;
   width: 100%;
 
@@ -37,13 +38,15 @@
 
 .svg__horiz__container {
   grid-row: 1 / 2;
-  grid-column: 1 / 8;
+  grid-column: 1 / 9;
   display: grid;
+  height: 6rem;
 }
 
 .svg__vert__container {
   grid-row: 2 / 6;
-  grid-column: 7 / 8;
+  grid-column: 8 / 9;
+  width: 6rem;
 
   &-mod {
     grid-row: 2 / 6;
@@ -52,15 +55,7 @@
 }
 
 .svg__horiz {
-  height: 100%;
   justify-self: end;
-  &-mod {
-    height: 100%;
-  }
-}
-
-.svg__vert {
-  width: 100%;
 }
 
 // Project decscription including svg icons
