@@ -14,32 +14,32 @@
   "about": {
     "h2": "Cześć, jestem ",
     "h2Span": "Wiola. ",
-    "p1": "Enthusiastic Front-End Developer based in Copenhagen, I'm curious about lates technologies and UI.",
-    "p2": "Fulltime Web Development student with the Multimedia Design background. Currently, I am open for new opportunities both remote and onsite in Copenhagen.",
+    "p1": "Entuzjastyczna frontend developer mieszkająca w Kopenhadze. Interesują mnie najnowsze technologie oraz UX/UI.",
+    "p2": "Po ukończeniu kierunku Multimedia Design i Komunikacja, kontynuuję studia licencjackie ze specjalizacją Web Development. Jestem otwarta na nowe możliwości zarówno pracy zdalnej jak i stacjonarnej.",
     "p3": "Sprawdź moje projekty!"
   },
   "contact": {
-    "h4": "Say ",
-    "h4Span": "Hi!",
-    "p": "Let's create something cool together",
+    "h4": " ",
+    "h4Span": "Cześć!",
+    "p": "Stwórzmy razem coś ciekawego!",
     "mail": "Mail: ",
     "cvr": "Numer Firmy: ",
     "address": "Adres: ",
     "location": "Kopenhaga, Dania"
   },
   "projects": {
-    "project1_h3": "React ",
-    "project1_h3Span": "Dashboard ",
-    "project1_p": "Dashboard design for sms communication platform created in React.",
-    "project2_h3": "Angular ",
-    "project2_h3Span": "Projekt",
-    "project2_p": "Designed using Figma and developed with Angular 2+, Firebase and Material Design.",
+    "project1_h3": "Projekt ",
+    "project1_h3Span": "React ",
+    "project1_p": "Projekt panelu administratora dla platformy komunikacyjnej sms stworzonej w technologii React.",
+    "project2_h3": "Projekt ",
+    "project2_h3Span": "Angular",
+    "project2_p": "Zaprojektowany w Figmie i stworzony z użyciem technologii Angular 2+, Firebase i Material Design.",
     "project3_h3": "API ",
     "project3_h3Span": "Hacker News",
-    "project3_p": "Hacker News clone using YCombinator API build in React and styled-components",
-    "project4_h3": "JavaScript ",
-    "project4_h3Span": "Dashboard ",
-    "project4_p": "TV dashboard idea to build up JavaScript skills and play with browsertesting tools."
+    "project3_p": "Strona stworzona na podstawie aplikacji Hacker News przy pomocy YCombinator API, React i styled components.",
+    "project4_h3": "Projekt ",
+    "project4_h3Span": "JavaScript ",
+    "project4_p": "Panel telewizyjny stworzony w celu rozwinięcia umiejętności programowania w Javascript i testowania rozwiązań dla różnych przeglądarek."
   },
   "footer": {
     "GitHubAlt": "Link to my Github site",
