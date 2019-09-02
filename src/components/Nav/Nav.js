@@ -23,7 +23,7 @@ class Nav extends Component {
   render() {
     return (
       <nav className={this.state.isOpen ? 'mobileNav' : 'navDesktop'}>
-        <NavMainItems isOpen={this.state.isOpen} />
+        <NavMainItems isOpen={this.state.isOpen} toggleMenu={this.toggleMenu} />
         <NavLangItems isOpen={this.state.isOpen} />
         <Burger
           className="burger"
