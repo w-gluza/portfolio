@@ -22,10 +22,16 @@
     justify-content: space-between;
     font-size: $font-size-regular;
   }
+  @include respond(big-desktop) {
+    font-size: $font-size-large;
+  }
 }
 
 nav ul li button {
   font-size: $font-size-regular;
+  @include respond(big-desktop) {
+    font-size: $font-size-large;
+  }
 }
 
 nav ul li button,

@@ -18,7 +18,7 @@ class Footer extends Component {
             <Icon name="GitHub" alt="" />
           </a>
           <a
-            href="https://github.com/w-gluza22/"
+            href="./WiolettaGluza_CV.pdf"
             title={this.props.t('footer.CVAlt')}
             aria-label={this.props.t('footer.CVAlt')}
             target="_blank"

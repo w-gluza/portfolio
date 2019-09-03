@@ -5,15 +5,15 @@ class About extends Component {
   render() {
     return (
       <section className="about" id="about">
-        <div>
+        <figure>
           <img
             className="aboutShapes"
             src="./img/aboutShapes.svg"
             alt=""
             role="presentation"
           />
-        </div>
-        <div>
+        </figure>
+        <article>
           <h2>
             {this.props.t('about.h2')}
             <span>{this.props.t('about.h2Span')}</span>
@@ -21,7 +21,7 @@ class About extends Component {
           <p>{this.props.t('about.p1')}</p>
           <p>{this.props.t('about.p2')}</p>
           <p>{this.props.t('about.p3')}</p>
-        </div>
+        </article>
       </section>
     );
   }

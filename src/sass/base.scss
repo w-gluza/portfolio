@@ -20,6 +20,9 @@ body {
   font-size: $font-size-regular;
   font-weight: $font-weight-regular;
   background-color: $color-grey;
+  @include respond(big-desktop) {
+    font-size: $font-size-large;
+  }
 }
 
 a:link,
@@ -59,6 +62,9 @@ h4 {
   span {
     color: $color-secondary;
   }
+  @include respond(big-desktop) {
+    font-size: $font-size-xlarge;
+  }
 }
 
 p {
@@ -70,6 +76,9 @@ p {
   margin-bottom: 2rem;
   @include respond(tab-port) {
     font-size: $font-size-regular;
+  }
+  @include respond(big-desktop) {
+    font-size: $font-size-large;
   }
 
   span {

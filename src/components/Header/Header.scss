@@ -39,8 +39,11 @@ a.button {
   margin-top: 20px;
   font-size: $font-size-regular;
   color: $color-white;
-
   &:hover {
     background-color: rgba(131, 96, 195, 1);
+  }
+  @include respond(big-desktop) {
+    font-size: $font-size-large;
+    padding: 10px 75px 10px 75px;
   }
 }

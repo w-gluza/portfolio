@@ -6,9 +6,9 @@
   },
   "header": {
     "h1": "Cześć, jestem ",
-    "h1Span": "Wiola ",
-    "h1End": "Jestem Frontend Developerem",
-    "p": "Stwórzy razem coś fajnego",
+    "h1Span": "Wiola. ",
+    "h1End": "Jestem Frontend Developerem.",
+    "p": "Stwórzy razem coś fajnego.",
     "button": "Kontakt!",
     "altProfile": "Zdjęcie profilowe"
   },
@@ -51,8 +51,8 @@
     "project4_AltCode": "Panel telewizyjny repozytorium"
   },
   "footer": {
-    "GitHubAlt": "Link to my Github site",
-    "CVAlt": "Link to CV in pdf",
-    "LinkedInAlt": "Link to my LinkedIn site"
+    "GitHubAlt": "Mój GitHub",
+    "CVAlt": "Moje CV",
+    "LinkedInAlt": "Link do mojego LinkedIn"
   }
 }
