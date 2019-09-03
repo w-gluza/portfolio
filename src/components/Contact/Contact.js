@@ -29,8 +29,10 @@ class Contact extends Component {
               <a href="mailto:wiolagluza@gmail.com.com">wiolagluza@gmail.com</a>
             </p>
             <p>
-              <span>{this.props.t('contact.cvr')}</span>
-              40171193
+              <p>
+                <span>{this.props.t('contact.phone')}</span>{' '}
+                <a href="tel:004550267755">50 26 7755</a>
+              </p>
             </p>
             <p>
               <span>{this.props.t('contact.address')}</span>
