@@ -9,7 +9,8 @@ class About extends Component {
           <img
             className="aboutShapes"
             src="./img/aboutShapes.svg"
-            alt="decorative shapes"
+            alt=""
+            role="presentation"
           />
         </div>
         <div>

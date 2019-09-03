@@ -6,7 +6,12 @@ class Nav extends Component {
     return (
       <div className="wrapper">
         {/* {this.props.isOpen && <div className="overlay"></div>} */}
-        <button className="burger" onClick={this.props.toggleMenu}>
+        <button
+          className="burger"
+          onClick={this.props.toggleMenu}
+          title="Burger"
+          aria-label="menu-burger"
+        >
           <span
             className={
               this.props.isOpen

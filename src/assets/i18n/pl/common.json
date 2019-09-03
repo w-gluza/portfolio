@@ -9,7 +9,8 @@
     "h1Span": "Wiola ",
     "h1End": "Jestem Frontend Developerem",
     "p": "Stwórzy razem coś fajnego",
-    "button": "Kontakt!"
+    "button": "Kontakt!",
+    "altProfile": "Zdjęcie profilowe"
   },
   "about": {
     "h2": "Cześć, jestem ",
@@ -31,15 +32,23 @@
     "project1_h3": "Projekt ",
     "project1_h3Span": "React ",
     "project1_p": "Projekt panelu administratora dla platformy komunikacyjnej sms stworzonej w technologii React.",
+    "project1_AltLive": "Panel biznesowy stworzony w React podgląd",
+    "project1_AltCode": "Panel biznesowy stworzony w React repozytorium",
     "project2_h3": "Projekt ",
     "project2_h3Span": "Angular",
     "project2_p": "Zaprojektowany w Figmie i stworzony z użyciem technologii Angular 2+, Firebase i Material Design.",
+    "project2_AltLive": "Wielojęzyczna platforma podgląd",
+    "project2_AltCode": "Wielojęzyczna platforma repozytorium",
     "project3_h3": "API ",
     "project3_h3Span": "Hacker News",
     "project3_p": "Strona stworzona na podstawie aplikacji Hacker News przy pomocy YCombinator API, React i styled components.",
+    "project3_AltLive": "Hacker news czytnik podgląd",
+    "project3_AltCode": "Hacker news czytnik repozytorium",
     "project4_h3": "Projekt ",
     "project4_h3Span": "JavaScript ",
-    "project4_p": "Panel telewizyjny stworzony w celu rozwinięcia umiejętności programowania w Javascript i testowania rozwiązań dla różnych przeglądarek."
+    "project4_p": "Panel telewizyjny stworzony w celu rozwinięcia umiejętności programowania w Javascript i testowania rozwiązań dla różnych przeglądarek.",
+    "project4_AltLive": "Panel telewizyjny podgląd",
+    "project4_AltCode": "Panel telewizyjny repozytorium"
   },
   "footer": {
     "GitHubAlt": "Link to my Github site",

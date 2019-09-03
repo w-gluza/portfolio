@@ -17,11 +17,12 @@ class Projects extends Component {
               <img
                 className="svg__horiz"
                 src="./img/squaresHorisontal.svg"
-                alt="ssomethig"
+                alt=""
+                role="presentation"
               />
             </div>
             <div className="svg__vert__container">
-              <img src="./img/squaresVertical.svg" alt="ssomethig" />
+              <img src="./img/squaresVertical.svg" alt="" role="presentation" />
             </div>
           </figure>
 
@@ -34,7 +35,8 @@ class Projects extends Component {
             <div className="project-icons--container">
               <a
                 href="https://w-gluza.github.io/dash/"
-                title="Business Dashboard Live Preview"
+                title={this.props.t('projects.project1_AltLive')}
+                aria-label={this.props.t('projects.project1_AltLive')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -43,7 +45,8 @@ class Projects extends Component {
               </a>
               <a
                 href="https://github.com/w-gluza/dash"
-                title="Business Dashboard GitHub Repository"
+                title={this.props.t('projects.project1_AltCode')}
+                aria-label={this.props.t('projects.project1_AltCode')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -65,11 +68,12 @@ class Projects extends Component {
               <img
                 className="svg__horiz-mod"
                 src="./img/circlesHorisontal.svg"
-                alt="ssomethig"
+                alt=""
+                role="presentation"
               />
             </div>
             <div className="svg__vert__container-mod">
-              <img src="./img/circlesVertical.svg" alt="ssomethig" />
+              <img src="./img/circlesVertical.svg" alt="" role="presentation" />
             </div>
           </figure>
           <section className="project__description">
@@ -82,7 +86,8 @@ class Projects extends Component {
             <div className="project-icons--container">
               <a
                 href="https://unibrew.firebaseapp.com/"
-                title="Multilanguage Communication Platform Live Preview"
+                title={this.props.t('projects.project2_AltLive')}
+                aria-label={this.props.t('projects.project2_AltLive')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -91,7 +96,8 @@ class Projects extends Component {
               </a>
               <a
                 href="https://github.com/ituraj/unibrew"
-                title="Multilanguage Communication Platform Repository"
+                title={this.props.t('projects.project2_AltCode')}
+                aria-label={this.props.t('projects.project2_AltCode')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -113,11 +119,12 @@ class Projects extends Component {
               <img
                 className="svg__horiz"
                 src="./img/squaresHorisontal.svg"
-                alt="ssomethig"
+                alt=""
+                role="presentation"
               />
             </div>
             <div className="svg__vert__container">
-              <img src="./img/squaresVertical.svg" alt="ssomethig" />
+              <img src="./img/squaresVertical.svg" alt="" role="presentation" />
             </div>
           </figure>
 
@@ -131,7 +138,8 @@ class Projects extends Component {
             <div className="project-icons--container">
               <a
                 href="https://w-gluza.github.io/hackernews/"
-                title="Hacker News Reader Live"
+                title={this.props.t('projects.project3_AltLive')}
+                aria-label={this.props.t('projects.project3_AltLive')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -140,7 +148,8 @@ class Projects extends Component {
               </a>
               <a
                 href="https://github.com/w-gluza/hackernews"
-                title="Hacker News Reader Repository"
+                title={this.props.t('projects.project3_AltCode')}
+                aria-label={this.props.t('projects.project3_AltCode')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -162,11 +171,12 @@ class Projects extends Component {
               <img
                 className="svg__horiz-mod"
                 src="./img/circlesHorisontal.svg"
-                alt="ssomethig"
+                alt=""
+                role="presentation"
               />
             </div>
             <div className="svg__vert__container-mod">
-              <img src="./img/circlesVertical.svg" alt="ssomethig" />
+              <img src="./img/circlesVertical.svg" alt="" role="presentation" />
             </div>
           </figure>
           <section className="project__description">
@@ -179,7 +189,8 @@ class Projects extends Component {
             <div className="project-icons--container">
               <a
                 href="https://w-gluza.github.io/TVdashFlex/"
-                title="TV Dashboard Live Preview"
+                title={this.props.t('projects.project4_AltLive')}
+                aria-label={this.props.t('projects.project4_AltLive')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"
@@ -188,7 +199,8 @@ class Projects extends Component {
               </a>
               <a
                 href="https://github.com/w-gluza/TVdashFlex"
-                title="TV Dashboard GitHub Repository"
+                title={this.props.t('projects.project4_AltCode')}
+                aria-label={this.props.t('projects.project4_AltCode')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project__icon"

@@ -9,7 +9,8 @@
     "h1Span": "Wioletta. ",
     "h1End": "Jeg er Frontend-udvikler.",
     "p": "Lad os skabe noget cool sammen.",
-    "button": "Sig Hej!"
+    "button": "Sig Hej!",
+    "altProfile": "My profile picture"
   },
   "about": {
     "h2": "Hej, jeg er ",
@@ -31,15 +32,23 @@
     "project1_h3": "React ",
     "project1_h3Span": "Betjeningspanel",
     "project1_p": "Dashboarddesign til sms-kommunikationsplatform oprettet i React.",
+    "project1_AltLive": "React dashboard live preview",
+    "project1_AltCode": "React dashboard repository",
     "project2_h3": "Angular ",
     "project2_h3Span": "App",
     "project2_p": "Designet ved hjælp af Figma og udviklet med Angular 2+, Firebase og Material Design.",
+    "project2_AltLive": "Multilanguage communication platform live preview",
+    "project2_AltCode": "Anular platform repository",
     "project3_h3": "API ",
     "project3_h3Span": "Hacker News",
     "project3_p": "Hacker News klon ved hjælp af YCombinator API bygget in React og styled-components.",
+    "project3_AltLive": "Hacker news reader live preview",
+    "project3_AltCode": "Hacker news reader repository",
     "project4_h3": "JavaScript ",
     "project4_h3Span": "Betjeningspanel",
-    "project4_p": "Tv i dashboard til at opbygge JavaScript-færdigheder og lege med browser-testværktøjer."
+    "project4_p": "Tv i dashboard til at opbygge JavaScript-færdigheder og lege med browser-testværktøjer.",
+    "project4_AltLive": "TV dashboard live preview",
+    "project4_AltCode": "TV dashboard repository"
   },
   "footer": {
     "GitHubAlt": "Link to my Github site",

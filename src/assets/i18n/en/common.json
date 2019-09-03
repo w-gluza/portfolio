@@ -9,7 +9,8 @@
     "h1Span": "Wioletta. ",
     "h1End": "Frontend Developer.",
     "p": "Let's create something cool together",
-    "button": "Say Hi!"
+    "button": "Say Hi!",
+    "altProfile": "My profile picture"
   },
   "about": {
     "h2": "Hi, I am ",
@@ -22,15 +23,23 @@
     "project1_h3": "React ",
     "project1_h3Span": "Dashboard",
     "project1_p": "Dashboard design for sms communication platform created in React.",
+    "project1_AltLive": "React dashboard live preview",
+    "project1_AltCode": "React dashboard repository",
     "project2_h3": "Angular ",
     "project2_h3Span": "Platform",
     "project2_p": "Designed using Figma and developed with Angular 2+, Firebase and Material Design.",
+    "project2_AltLive": "Multilanguage communication platform live preview",
+    "project2_AltCode": "Anular platform repository",
     "project3_h3": "API ",
     "project3_h3Span": "Hacker News",
     "project3_p": "Hacker News clone using YCombinator API build in React and styled-components.",
+    "project3_AltLive": "Hacker news reader live preview",
+    "project3_AltCode": "Hacker news reader repository",
     "project4_h3": "JavaScript ",
     "project4_h3Span": "Dashboard",
-    "project4_p": "TV dashboard idea to build up JavaScript skills and play with browsertesting tools."
+    "project4_p": "TV dashboard idea to build up JavaScript skills and play with browsertesting tools.",
+    "project4_AltLive": "TV dashboard live preview",
+    "project4_AltCode": "TV dashboard repository"
   },
   "contact": {
     "h4": "Say ",
@@ -42,8 +51,8 @@
     "location": "Copenhagen, Denmark"
   },
   "footer": {
-    "GitHubAlt": "Link to my Github site",
-    "CVAlt": "Link to CV in pdf",
+    "GitHubAlt": "Link to my GitHub site",
+    "CVAlt": "Link to my CV in PDF",
     "LinkedInAlt": "Link to my LinkedIn site"
   }
 }

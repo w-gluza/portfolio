@@ -20,12 +20,13 @@ class Header extends Component {
           <img
             className="profile_circle"
             src="./img/profile_circle.svg"
-            alt="ssomethig"
+            alt=""
+            role="presentation"
           />
           <img
             className="profile__img"
             src="./img/Wioletta_Gluza.png"
-            alt="somethig"
+            alt="{this.props.t('header.altProfile')}"
           />
         </figure>
       </header>

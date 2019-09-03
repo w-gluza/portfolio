@@ -9,38 +9,33 @@ class Footer extends Component {
         <div className="footer-icons--container">
           <a
             href="https://github.com/w-gluza/"
-            title="My GitHub portfolio"
+            title={this.props.t('footer.GitHubAlt')}
+            aria-label={this.props.t('footer.GitHubAlt')}
             target="_blank"
             rel="noopener noreferrer"
             className="footer__icon"
           >
-            <Icon name="GitHub" alt={this.props.t('footer.GitHubAlt')} />
+            <Icon name="GitHub" alt="" />
           </a>
           <a
-            href="https://github.com/w-gluza/"
-            title="My CV in pdf"
+            href="https://github.com/w-gluza22/"
+            title={this.props.t('footer.CVAlt')}
+            aria-label={this.props.t('footer.CVAlt')}
             target="_blank"
             rel="noopener noreferrer"
             className="footer__icon"
           >
-            <Icon
-              name="CV"
-              className="footer__icon"
-              alt={this.props.t('footer.CVAlt')}
-            />
+            <Icon name="CV" className="footer__icon" alt="" />
           </a>
           <a
             href="https://www.linkedin.com/in/w-gluza/"
-            title="My LinkedIn Profile"
+            title={this.props.t('footer.LinkedInAlt')}
+            aria-label={this.props.t('footer.LinkedInAlt')}
             target="_blank"
             rel="noopener noreferrer"
             className="footer__icon"
           >
-            <Icon
-              name="LinkedIn"
-              className="footer__icon"
-              alt={this.props.t('footer.LinkedInAlt')}
-            />
+            <Icon name="LinkedIn" className="footer__icon" alt="" />
           </a>
         </div>
       </footer>
