@@ -14,7 +14,7 @@
   "about": {
     "h2": "Hej, jeg er ",
     "h2Span": "Wioletta ",
-    "p1": "Entusiastisk Front-End Developer med base i København, jeg er nysgerrig efter de nyeste teknologier og UI",
+    "p1": "Entusiastisk Front-End Developer baseret i med København, som er nysgerrig efter de nyeste teknologier og UI",
     "p2": "Fuldtidsstudent i webudvikling med baggrund i multimediedesign. I øjeblikket er jeg åben for nye muligheder både fjerntliggende og på stedet i København.",
     "p3": "Tjek min GitHub, og sig hej!"
   },
@@ -24,7 +24,7 @@
     "p": "Lad os skabe noget cool sammen",
     "mail": "Mail: ",
     "cvr": "CVR: ",
-    "address": "Adres: ",
+    "address": "Adresse: ",
     "location": "København, Danmark"
   },
   "projects": {
@@ -36,7 +36,7 @@
     "project2_p": "Designet ved hjælp af Figma og udviklet med Angular 2+, Firebase og Material Design.",
     "project3_h3": "API ",
     "project3_h3Span": "Hacker News",
-    "project3_p": "Hacker News klon ved hjælp af YCombinator API build in React og stylede-components.",
+    "project3_p": "Hacker News klon ved hjælp af YCombinator API bygget in React og styled-components.",
     "project4_h3": "JavaScript ",
     "project4_h3Span": "Betjeningspanel",
     "project4_p": "Tv i dashboard til at opbygge JavaScript-færdigheder og lege med browser-testværktøjer."
