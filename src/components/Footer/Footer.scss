@@ -1,6 +1,7 @@
 .footer {
-  width: 100%;
-  background-color: $color-primary;
+  margin-left: 10%;
+  width: 80%;
+  border-top: 1px solid rgba($color-secondary, 0.5);
   display: grid;
   justify-items: center;
   height: 7rem;
@@ -20,6 +21,6 @@
   align-self: center;
 
   :hover {
-    fill: $color-white;
+    fill: $color-primary;
   }
 }

@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <section className="contact" id="contact">
-        <div className="headerImg__wrapper">
+        <figure className="contact__figure">
           <img
             className="profile_circle"
             src="./img/profile_circle.svg"
@@ -16,10 +16,9 @@ class Contact extends Component {
             src="./img/Wioletta_Gluza.png"
             alt="somethig"
           />
-        </div>
-        <div>
+        </figure>
+        <article>
           <h4>
-            {' '}
             {this.props.t('contact.h4')}
             <span>{this.props.t('contact.h4Span')}</span>
           </h4>
@@ -37,7 +36,7 @@ class Contact extends Component {
               {this.props.t('contact.location')}
             </p>
           </address>
-        </div>
+        </article>
       </section>
     );
   }

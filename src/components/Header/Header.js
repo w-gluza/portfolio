@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-        <div>
+        <section className="header__section">
           <h1>
             {this.props.t('header.h1')}
             <span>{this.props.t('header.h1Span')}</span>
@@ -15,8 +15,8 @@ class Header extends Component {
           <a href="#contact" className="button">
             {this.props.t('header.button')}
           </a>
-        </div>
-        <div className="headerImg__wrapper">
+        </section>
+        <figure className="header__figure">
           <img
             className="profile_circle"
             src="./img/profile_circle.svg"
@@ -27,7 +27,7 @@ class Header extends Component {
             src="./img/Wioletta_Gluza.png"
             alt="somethig"
           />
-        </div>
+        </figure>
       </header>
     );
   }

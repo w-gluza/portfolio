@@ -1,23 +1,15 @@
-a.button {
-  background-color: rgba(131, 96, 195, 0.85);
-  border-radius: 35px;
-  padding: 5px 50px 5px 50px;
-  margin-top: 20px;
-  font-size: $font-size-regular;
-  color: $color-white;
-
-  &:hover {
-    background-color: rgba(131, 96, 195, 1);
-  }
+.header__section {
+  grid-row: 2;
 }
-
-.headerImg__wrapper {
+.header__figure {
   display: grid;
   grid-template-rows: repeat(16, 1fr);
   grid-template-columns: repeat(16, 1fr);
-  max-width: 60vw;
+  max-width: 70vw;
+  grid-row: 1;
   @include respond(tab-land) {
-    max-width: 25vw;
+    max-width: 30vw;
+    grid-row: 2;
   }
 }
 
@@ -30,4 +22,17 @@ a.button {
   width: 100%;
   grid-column: 6 / 16;
   grid-row: 4 / 16;
+}
+
+a.button {
+  background-color: rgba(131, 96, 195, 0.85);
+  border-radius: 35px;
+  padding: 5px 50px 5px 50px;
+  margin-top: 20px;
+  font-size: $font-size-regular;
+  color: $color-white;
+
+  &:hover {
+    background-color: rgba(131, 96, 195, 1);
+  }
 }
