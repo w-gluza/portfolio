@@ -5,7 +5,7 @@ import Icon from '../../assets/icons/';
 class Projects extends Component {
   render() {
     return (
-      <section id="projects">
+      <section className="projects" id="projects">
         <article className="project">
           <figure className="project__figure">
             <img

@@ -8,7 +8,7 @@ class Contact extends Component {
         <figure className="contact__figure">
           <img
             className="profile_circle"
-            src="./img/profile_circle.svg"
+            src="./img/contact__circles.svg"
             alt="ssomethig"
           />
           <img

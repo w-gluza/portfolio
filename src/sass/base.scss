@@ -92,15 +92,30 @@ header,
 .contact {
   display: grid;
   grid-template-columns: 1fr;
+  padding-top: 5rem;
   @include respond(tab-land) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding-top: 0rem;
+  }
+}
+.projects {
+  padding-top: 5rem;
+}
+.header,
+.contact {
+  grid-template-rows: 1fr 1fr;
+  @include respond(tab-land) {
+    grid-template-rows: 1fr;
   }
 }
 .header {
   min-height: calc(100vh - 48px);
-  justify-items: center;
+  justify-items: left;
+  @include respond(tab-land) {
+    justify-items: center;
+  }
 }
 .about {
   min-height: 100vh;

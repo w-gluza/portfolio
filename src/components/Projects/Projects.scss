@@ -3,10 +3,10 @@
   grid-template-columns: 1fr;
   align-items: end;
   margin-bottom: 10rem;
-  grid-gap: 10rem;
 
   @include respond(tab-land) {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
   }
 }
 

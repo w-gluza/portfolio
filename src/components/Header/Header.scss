@@ -1,5 +1,9 @@
 .header__section {
   grid-row: 2;
+  @include respond(tab-land) {
+    grid-row: 1;
+    grid-column: 1;
+  }
 }
 .header__figure {
   display: grid;
@@ -9,7 +13,8 @@
   grid-row: 1;
   @include respond(tab-land) {
     max-width: 30vw;
-    grid-row: 2;
+    grid-row: 1;
+    grid-column: 2;
   }
 }
 
