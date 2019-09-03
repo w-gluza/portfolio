@@ -11,6 +11,9 @@
   grid-template-columns: repeat(16, 1fr);
   max-width: 70vw;
   grid-row: 1;
+  @include respond(tab-port) {
+    max-width: 50vw;
+  }
   @include respond(tab-land) {
     max-width: 30vw;
     grid-row: 1;
