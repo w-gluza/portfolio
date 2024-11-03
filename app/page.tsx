@@ -1,12 +1,10 @@
-export default function Home() {
+function Home() {
   return (
     <div>
-      <main>
-        Main Content
-      </main>
-      <footer>
-       Footer
-      </footer>
+      <main>Main Content</main>
+      <footer>Footer</footer>
     </div>
   );
 }
+
+export default Home;
