@@ -1,4 +1,7 @@
 import styles from "./page.module.css";
+import { Tag } from "./common";
+import { experience } from "./data/experience";
+import { skills } from "./data/skills";
 
 export default function Home() {
   return (
@@ -36,143 +39,42 @@ export default function Home() {
         <section>
           <h2>Experience</h2>
           <ul className={styles.list}>
-            <li>
-              <strong>Inpay - Front-End Developer (2022 - Present)</strong>
-              <ul className={styles.duties}>
-                <li>
-                  Took the lead in introducing React, working on the initial
-                  setup and migration from Ruby
-                </li>
-                <li>
-                  Helped build and maintain a shared design system and reusable
-                  component library
-                </li>
-                <li>
-                  Participated in sprint planning, retrospectives, and release
-                  coordination in an agile environment
-                </li>
-              </ul>
-
-              <ul className={styles.tags}>
-                <li>React</li>
-                <li>TypeScript</li>
-                <li>Design Systems</li>
-                <li>Storybook</li>
-              </ul>
-            </li>
-
-            <li>
-              <strong>ITU - Front-End Developer (2022 - Contract)</strong>
-              <ul className={styles.duties}>
-                <li>
-                  Developed the first version of the “Write with Laika” app
-                  using React and TypeScript
-                </li>
-                <li>
-                  Worked closely with product and backend teams to align on
-                  features and functionality
-                </li>
-                <li>
-                  Documented frontend workflows and setup to support handover
-                  and long-term maintainability
-                </li>
-              </ul>
-              <ul className={styles.tags}>
-                <li>React</li>
-                <li>TypeScript</li>
-                <li>Documentation</li>
-                <li>Agile</li>
-                <li>Cross-team Collaboration</li>
-              </ul>
-            </li>
-
-            <li>
-              <strong>
-                Too Good To Go — Front-End Developer (2019 - 2022)
-              </strong>
-              <ul className={styles.duties}>
-                <li>
-                  Built and maintained key app features using React, Redux, and
-                  Material UI
-                </li>
-                <li>
-                  Integrated internal APIs and third-party services in close
-                  collaboration with backend teams
-                </li>
-                <li>Collaborated closely with product and design</li>
-              </ul>
-              <ul className={styles.tags}>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Material UI</li>
-                <li>API Integration</li>
-                <li>Cross-functional Collaboration</li>
-              </ul>
-            </li>
+            {experience.map(({ company, title, period, duties, tags }) => (
+              <li key={`${company}-${period}`}>
+                <strong>
+                  {company} — {title} ({period})
+                </strong>
+                <ul className={styles.duties}>
+                  {duties.map((duty, index) => (
+                    <li key={index}>{duty}</li>
+                  ))}
+                </ul>
+                <ul className={styles.tags}>
+                  {tags.map((tag) => (
+                    <li key={tag}>
+                      <Tag>{tag}</Tag>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
           </ul>
         </section>
 
         <section>
           <h2>Skills</h2>
-
-          <div className={styles.skillGroup}>
-            <h3>Languages & Frameworks</h3>
-            <ul className={styles.tags}>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>React</li>
-              <li>Redux</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>SASS</li>
-              <li>MUI</li>
-            </ul>
-          </div>
-
-          <div className={styles.skillGroup}>
-            <h3>Design & UX</h3>
-            <ul className={styles.tags}>
-              <li>Figma</li>
-              <li>Storybook</li>
-              <li>Design Systems</li>
-            </ul>
-          </div>
-
-          <div className={styles.skillGroup}>
-            <h3>Tools</h3>
-            <ul className={styles.tags}>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>GitLab</li>
-              <li>Jenkins</li>
-            </ul>
-          </div>
-
-          <div className={styles.skillGroup}>
-            <h3>Code Standards</h3>
-            <ul className={styles.tags}>
-              <li>ESLint</li>
-              <li>Prettier</li>
-              <li>Linting Pipelines</li>
-            </ul>
-          </div>
-
-          <div className={styles.skillGroup}>
-            <h3>Testing</h3>
-            <ul className={styles.tags}>
-              <li>Jest</li>
-              <li>React Testing Library</li>
-            </ul>
-          </div>
-
-          <div className={styles.skillGroup}>
-            <h3>Collaboration</h3>
-            <ul className={styles.tags}>
-              <li>Agile</li>
-              <li>Jira</li>
-              <li>Confluence</li>
-            </ul>
-          </div>
+          {Object.entries(skills).map(([category, tags]) => (
+            <div key={category} className={styles.skillGroup}>
+              <h3>{category}</h3>
+              <ul className={styles.tags}>
+                {tags.map((tag) => (
+                  <li key={tag}>
+                    <Tag>{tag}</Tag>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </section>
 
         <section>

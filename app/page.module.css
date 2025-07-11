@@ -78,7 +78,6 @@
   padding: 0.1rem 0.2rem;
 }
 
-
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -88,7 +87,7 @@
   list-style: none;
 }
 
-.tags li {
+/* .tags li {
   font-size: 0.75rem;
   border: 1px solid #000;
   color: #000;
@@ -96,8 +95,7 @@
   border-radius: 3px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-}
-
+} */
 
 .duties {
   margin: 0.75rem 0px;
