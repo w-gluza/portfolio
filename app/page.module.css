@@ -1,36 +1,53 @@
 .page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  background-color: #fff;
+  color: #000;
+  font-family: system-ui, sans-serif;
+  max-width: 720px;
+  margin: 0 auto;
   padding: 2rem;
-  background-color: #f9f9f9;
-  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.header {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
-.main h1 {
-  font-size: 2.25rem;
-  margin-bottom: 1rem;
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.main p {
-  font-size: 1.15rem;
-  margin-bottom: 1rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+.header p {
+  font-size: 1.25rem;
   color: #333;
 }
 
-.link {
-  color: #0070f3;
-  text-decoration: underline;
-  font-weight: 500;
+.main h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.25rem;
 }
 
-.link:focus {
-  outline: 2px solid #0070f3;
-  outline-offset: 4px;
-  border-radius: 4px;
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 1rem;
+}
+
+.link {
+  text-decoration: underline;
+  color: #000;
+}
+
+.link:focus,
+.link:hover {
+  outline: 2px solid #000;
+  outline-offset: 3px;
 }
