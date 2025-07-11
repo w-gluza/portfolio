@@ -63,13 +63,18 @@
   font-weight: 600;
   border-bottom: 1px solid #000;
   transition: all 0.2s ease;
+  color: #000;
+}
+
+.link:visited {
+  color: #000;
 }
 
 .link:hover,
 .link:focus {
   background: #000;
+  outline: auto;
   color: #fff;
-  outline: none;
   padding: 0.1rem 0.2rem;
 }
 
@@ -102,4 +107,16 @@
 
 .duties li {
   margin-bottom: 0.5rem;
+}
+
+.skillGroup {
+  margin-bottom: 2rem;
+}
+
+.skillGroup h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 }

@@ -87,7 +87,9 @@ export default function Home() {
             </li>
 
             <li>
-              <strong>Too Good To Go — Front-End Developer (2019 - 2022)</strong>
+              <strong>
+                Too Good To Go — Front-End Developer (2019 - 2022)
+              </strong>
               <ul className={styles.duties}>
                 <li>
                   Built and maintained key app features using React, Redux, and
@@ -112,11 +114,65 @@ export default function Home() {
 
         <section>
           <h2>Skills</h2>
-          <ul className={styles.list}>
-            <li>React, TypeScript, JavaScript</li>
-            <li>Design Systems, MUI, Storybook</li>
-            <li>Jest, React Testing Library</li>
-          </ul>
+
+          <div className={styles.skillGroup}>
+            <h3>Languages & Frameworks</h3>
+            <ul className={styles.tags}>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SASS</li>
+              <li>MUI</li>
+            </ul>
+          </div>
+
+          <div className={styles.skillGroup}>
+            <h3>Design & UX</h3>
+            <ul className={styles.tags}>
+              <li>Figma</li>
+              <li>Storybook</li>
+              <li>Design Systems</li>
+            </ul>
+          </div>
+
+          <div className={styles.skillGroup}>
+            <h3>Tools</h3>
+            <ul className={styles.tags}>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Jenkins</li>
+            </ul>
+          </div>
+
+          <div className={styles.skillGroup}>
+            <h3>Code Standards</h3>
+            <ul className={styles.tags}>
+              <li>ESLint</li>
+              <li>Prettier</li>
+              <li>Linting Pipelines</li>
+            </ul>
+          </div>
+
+          <div className={styles.skillGroup}>
+            <h3>Testing</h3>
+            <ul className={styles.tags}>
+              <li>Jest</li>
+              <li>React Testing Library</li>
+            </ul>
+          </div>
+
+          <div className={styles.skillGroup}>
+            <h3>Collaboration</h3>
+            <ul className={styles.tags}>
+              <li>Agile</li>
+              <li>Jira</li>
+              <li>Confluence</li>
+            </ul>
+          </div>
         </section>
 
         <section>
@@ -128,7 +184,8 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className={styles.link}
-            >LinkedIn
+            >
+              LinkedIn
             </a>
             .
           </p>
