@@ -1,19 +1,19 @@
 import styles from "./page.module.css";
-import { Tag } from "./common";
 import { experience } from "./data/experience";
 import { skills } from "./data/skills";
+import { ExternalLink, Tag, Heading } from "./common";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <h1>Wioletta Gluza</h1>
+        <Heading level={1}>Wioletta Gluza</Heading>
         <p>Front-End Developer | React & TypeScript</p>
       </header>
 
       <main className={styles.main}>
         <section>
-          <h2>About Me</h2>
+          <Heading level={2}>About Me</Heading>
           <p>
             <p>
               Hello, I’m a front-end developer with 6+ years of experience
@@ -37,7 +37,7 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Experience</h2>
+          <Heading level={2}>Experience</Heading>
           <ul className={styles.list}>
             {experience.map(({ company, title, period, duties, tags }) => (
               <li key={`${company}-${period}`}>
@@ -62,10 +62,10 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Skills</h2>
+          <Heading level={2}>Skills</Heading>
           {Object.entries(skills).map(([category, tags]) => (
             <div key={category} className={styles.skillGroup}>
-              <h3>{category}</h3>
+              <Heading level={3}>{category}</Heading>
               <ul className={styles.tags}>
                 {tags.map((tag) => (
                   <li key={tag}>
@@ -78,17 +78,12 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Contact</h2>
+          <Heading level={2}>Contact</Heading>
           <p>
             Let`s connect on{" "}
-            <a
-              href="https://www.linkedin.com/in/w-gluza/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
+            <ExternalLink href="https://www.linkedin.com/in/w-gluza/">
               LinkedIn
-            </a>
+            </ExternalLink>
             .
           </p>
         </section>
