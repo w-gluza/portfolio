@@ -1,26 +1,26 @@
 .link {
   text-decoration: none;
   font-weight: 600;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--color-black);
   transition: all 0.2s ease;
-  color: #000;
+  color: var(--color-black);
 }
 
 .link:visited {
-  color: #000;
+  color: var(--color-black);
 }
 
 .link:hover {
-  background: #000;
-  color: #fff;
+  background: var(--color-black);
+  color: var(--color-white);
   padding: 0.1rem 0.2rem;
 }
 
 .link:focus-visible {
-  outline: 2px dashed #000;
+  outline: 2px dashed var(--color-black);
   outline-offset: 3px;
-  background: #000;
-  color: #fff;
+  background: var(--color-black);
+  color: var(--color-white);
   padding: 0.1rem 0.2rem;
 }
 
