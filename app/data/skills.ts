@@ -5,6 +5,7 @@ export const skills: SkillCategory = {
     "JavaScript",
     "TypeScript",
     "React",
+    "Next",
     "Redux",
     "HTML5",
     "CSS3",
