@@ -7,8 +7,8 @@ export const Contact = () => (
       Let’s connect on{" "}
       <ExternalLink href="https://www.linkedin.com/in/w-gluza/">
         LinkedIn
-      </ExternalLink>
-      .
+      </ExternalLink>{" "}
+      or <ExternalLink href="https://github.com/w-gluza">GitHub</ExternalLink>.
     </p>
   </footer>
 );
