@@ -1,12 +1,15 @@
 .h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin: 0;
   letter-spacing: -0.5px;
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
 }
 
 .h2 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.8rem;
+  color: var(--color-black);
+  font-weight: var(--weight-semibold);
   margin-bottom: 1rem;
   padding-bottom: 0.25rem;
 }
@@ -16,13 +19,14 @@
   display: block;
   width: 40px;
   height: 2px;
-  background: #000;
+  background: var(--color-black);
   margin-top: 8px;
 }
 
 .h3 {
   font-size: 1.5rem;
-  font-weight: 600;
+  color: var(--color-black);
+  font-weight: var(--weight-semibold);
   margin-bottom: 0.75rem;
 }
 
@@ -30,6 +34,7 @@
 .h5,
 .h6 {
   font-size: 1.2rem;
-  font-weight: 500;
+  color: var(--color-black);
+  font-weight: var(--weight-medium);
   margin-bottom: 0.5rem;
 }
