@@ -1,10 +1,10 @@
-import React from "react";
+import { ReactNode } from "react";
 import clsx from "clsx";
 import styles from "./ExternalLink.module.css";
 
 type ExternalLinkProps = {
   href: string;
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
   label?: string;
 };
