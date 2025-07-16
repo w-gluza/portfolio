@@ -1,0 +1,28 @@
+:root {
+  /* Fonts */
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Font Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Color Weights */
+  --color-black: #222222;
+  --color-white: #fafafa;
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+code,
+pre,
+.mono {
+  font-family: var(--font-mono), monospace;
+}
