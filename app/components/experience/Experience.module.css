@@ -27,6 +27,7 @@
   align-items: center;
   gap: 0.25rem;
   font-size: 1.1rem;
+  font-weight: var(--weight-bold);
 }
 
 .company-link {
@@ -51,14 +52,15 @@
 }
 
 .title {
+  font-size: 1rem;
   font-weight: var(--weight-medium);
   color: var(--color-gray-700);
   margin-left: 0.25rem;
 }
 
 .period {
-  font-size: 0.95rem;
-  color: var(--color-gray-600);
+  font-size: 0.9rem;
+  color: var(--color-gray-500);
   font-weight: var(--weight-medium);
 }
 
