@@ -35,7 +35,7 @@ export const experience: ExperienceEntry[] = [
       "TypeScript",
       "Documentation",
       "Agile",
-      "Cross-team Collaboration",
+      "Cross-functional team",
     ],
   },
   {
@@ -53,7 +53,7 @@ export const experience: ExperienceEntry[] = [
       "Redux",
       "Material UI",
       "API Integration",
-      "Cross-functional Collaboration",
+      "Cross-functional team",
     ],
   },
 ];
