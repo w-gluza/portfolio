@@ -1,12 +1,7 @@
 import { experience } from "../../data/experience";
 import styles from "./Experience.module.css";
-import {
-  Article,
-  Heading,
-  Tag,
-  ExternalLink,
-  ExternalLinkIcon,
-} from "../../common";
+import { ExternalLinkIcon } from "../../assets/icons";
+import { Article, Heading, Tag, ExternalLink } from "../../common";
 
 export const Experience = () => {
   return (
