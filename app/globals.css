@@ -9,9 +9,11 @@
   --weight-semibold: 600;
   --weight-bold: 700;
 
-  /* Color Weights */
+  /* Color Variables */
   --color-black: #222222;
   --color-white: #fafafa;
+  --color-gray-700: #444444;
+  --color-gray-600: #666666;
 }
 
 body {
