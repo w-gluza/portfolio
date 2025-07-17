@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Hello 👋
 
-## Getting Started
+This is my personal portfolio site, built with **React**, powered by **Next.js**, and written in **TypeScript**.
 
-First, run the development server:
+•••
+
+### 🌐 Live
+
+🔗 [https://wiola.dev](https://wiola.dev/)
+
+•••
+
+### 🛠 Tech Stack
+
+- **Frontend**: React (via Next.js)
+- **Language**: TypeScript
+- **Styling**: CSS Modules
+- **Tooling**: ESLint, Prettier
+
+•••
+
+### 🧪 Getting Started
 
 ```bash
+git clone https://github.com/w-gluza/portfolio
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+•••
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🤝 Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Thanks for checking out my portfolio!
+If you’d like to get in touch for collaboration, opportunities, or just to talk front-end, feel free to reach out via the channels below:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🧑‍💼 **LinkedIn**: [linkedin.com/in/w-gluza](https://www.linkedin.com/in/w-gluza/)
+- 💻 **GitHub**: [github.com/w-gluza](https://github.com/w-gluza)
+- 📄 **Resume**: [wiola.dev/gluza_wioletta_cv.pdf](https://wiola.dev/gluza_wioletta_cv.pdf)
+- ✉️ **Email**: [wiolagluza@gmail.com](mailto:wiolagluza@gmail.com)
