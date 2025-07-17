@@ -1,0 +1,15 @@
+.base {
+  color: var(--color-black);
+  font-weight: var(--weight-semibold);
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: var(--weight-semibold);
+}
