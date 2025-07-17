@@ -1,5 +1,6 @@
 export interface ExperienceEntry {
   company: string;
+  url: string;
   title: string;
   period: string;
   duties: string[];
@@ -9,6 +10,7 @@ export interface ExperienceEntry {
 export const experience: ExperienceEntry[] = [
   {
     company: "Inpay",
+    url: "https://inpay.com",
     title: "Front-End Developer",
     period: "2022 - Present",
     duties: [
@@ -20,8 +22,9 @@ export const experience: ExperienceEntry[] = [
   },
   {
     company: "ITU",
+    url: "https://www.linkedin.com/company/writewithlaika/",
     title: "Front-End Developer",
-    period: "2022 - Contract",
+    period: "2022 - 2022",
     duties: [
       "Developed the first version of the “Write with Laika” app using React and TypeScript",
       "Worked closely with product and backend teams to align on features and functionality",
@@ -37,6 +40,7 @@ export const experience: ExperienceEntry[] = [
   },
   {
     company: "Too Good To Go",
+    url: "https://www.toogoodtogo.com",
     title: "Front-End Developer",
     period: "2019 - 2022",
     duties: [
