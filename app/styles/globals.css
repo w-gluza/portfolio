@@ -14,6 +14,7 @@
   --color-white: #fafafa;
   --color-gray-700: #444444;
   --color-gray-600: #666666;
+  --color-gray-300: #dddddd;
 }
 
 body {
@@ -21,6 +22,12 @@ body {
   font-weight: var(--weight-regular);
   color: var(--color-black);
   background-color: var(--color-white);
+  font-size: clamp(0.875rem, 2vw, 1rem);
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
 }
 
 code,
