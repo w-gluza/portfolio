@@ -15,6 +15,7 @@ export const skills: SkillCategory = {
   "Design & UX": ["Figma", "Storybook", "Design Systems"],
   Tools: ["Git", "GitHub", "GitLab", "Jenkins"],
   "Code Standards": ["ESLint", "Prettier", "Linting Pipelines"],
-  Testing: ["Jest", "React Testing Library"],
+  Testing: ["Jest", "React Testing Library", "A/B Testing"],
+  "Code Productivity": ["GitHub Copilot", "ChatGPT"],
   Collaboration: ["Agile", "Jira", "Confluence"],
 };
