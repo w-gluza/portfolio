@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./styles/reset.css";
 import "./styles/globals.css";
@@ -59,6 +60,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${jakartaSans.variable} ${jetBrainsMono.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
