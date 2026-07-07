@@ -1,18 +1,9 @@
-import { ReactNode } from "react";
 import { ExternalLink } from "../common";
+import { Entry } from "../common/EntryList/EntryList";
 
-export interface ExperienceEntry {
-  company: string;
-  url: string;
-  title: string;
-  period: string;
-  duties: ReactNode[];
-  tags: string[];
-}
-
-export const experience: ExperienceEntry[] = [
+export const experience: Entry[] = [
   {
-    company: "Apron",
+    name: "Apron",
     url: "https://getapron.com",
     title: "Frontend Engineer",
     period: "2025 - Present",
@@ -36,7 +27,7 @@ export const experience: ExperienceEntry[] = [
     ],
   },
   {
-    company: "Inpay",
+    name: "Inpay",
     url: "https://inpay.com",
     title: "Frontend Developer",
     period: "2022 - 2025",
@@ -48,7 +39,7 @@ export const experience: ExperienceEntry[] = [
     tags: ["React", "TypeScript", "Design Systems", "Storybook", "Fintech"],
   },
   {
-    company: "ITU",
+    name: "ITU",
     url: "https://www.linkedin.com/company/writewithlaika/",
     title: "Frontend Developer",
     period: "2022",
@@ -59,7 +50,7 @@ export const experience: ExperienceEntry[] = [
     tags: ["React", "TypeScript", "AI Applications", "REST APIs"],
   },
   {
-    company: "Too Good To Go",
+    name: "Too Good To Go",
     url: "https://www.toogoodtogo.com",
     title: "Frontend Developer",
     period: "2019 - 2022",

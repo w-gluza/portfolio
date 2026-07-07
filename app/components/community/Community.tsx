@@ -12,10 +12,9 @@ export const Community = () => (
       technology, in collaboration with Zealand Academy (2020).
     </p>
     <p>
-      Tutored fellow students as a student tutor at{" "}
-      <ExternalLink href="https://www.ek.dk/">KEA</ExternalLink> (Copenhagen
-      School of Design and Technology) during my BA, supporting other
-      developers-in-training.
+      Returned to <ExternalLink href="https://www.ek.dk/">KEA</ExternalLink>{" "}
+      (Copenhagen School of Design and Technology) after completing my degree
+      to tutor and mentor aspiring developers.
     </p>
   </Article>
 );
