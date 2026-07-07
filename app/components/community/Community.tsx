@@ -4,17 +4,18 @@ export const Community = () => (
   <Article>
     <Heading level={2}>Community & Teaching</Heading>
     <p>
-      Delivered live coding streams for{" "}
+      Delivered live coding sessions for{" "}
       <ExternalLink href="https://www.linkedin.com/company/girls-in-it-zealand/">
         Piger i IT
       </ExternalLink>{" "}
-      (&ldquo;Girls in IT&rdquo;), a Danish initiative encouraging women into
-      technology, in collaboration with Zealand Academy (2020).
+      (&ldquo;Girls in IT&rdquo;), a Danish initiative encouraging more women
+      to pursue careers in technology, in collaboration with Zealand Academy
+      (2020).
     </p>
     <p>
-      Returned to <ExternalLink href="https://www.ek.dk/">KEA</ExternalLink>{" "}
-      (Copenhagen School of Design and Technology) after completing my degree
-      to tutor and mentor aspiring developers.
+      Returned to <ExternalLink href="https://www.ek.dk/">KEA</ExternalLink> -
+      Copenhagen School of Design and Technology after completing my degree to
+      tutor and support students in web development.
     </p>
   </Article>
 );

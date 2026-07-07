@@ -28,6 +28,6 @@ export const skills: SkillCategory = {
     "Sentry",
   ],
   "Code Standards": ["ESLint", "Prettier", "Linting Pipelines"],
-  "AI-assisted Development": ["Claude", "GitHub Copilot"],
+  "AI Tools": ["Claude", "GitHub Copilot"],
   Collaboration: ["Agile", "Jira", "Confluence"],
 };
