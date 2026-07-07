@@ -1,0 +1,33 @@
+.entry {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  font-weight: var(--weight-bold);
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  font-style: italic;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  color: var(--color-gray-700);
+  margin: 0;
+}
+
+.details {
+  margin: 0.75rem 0px;
+  padding-left: 1.25rem;
+  list-style: circle;
+}
+
+.details li {
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-top: 0.75rem;
+}

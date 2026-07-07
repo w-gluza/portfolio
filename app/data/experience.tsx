@@ -22,7 +22,7 @@ export const experience: ExperienceEntry[] = [
         <ExternalLink href="https://getapron.com/william">
           William AI
         </ExternalLink>
-        , Apron's autonomous bookkeeping agent for accounting firms.
+        , Apron’s autonomous bookkeeping agent for accounting firms.
       </>,
       "Contributing to the platform's foundations, including design-system components, data-layer migrations, and frontend reliability improvements.",
       "Represented Apron at Accountex, speaking with accounting professionals to understand their workflows and gather feedback that informed product decisions.",
@@ -51,7 +51,7 @@ export const experience: ExperienceEntry[] = [
     company: "ITU",
     url: "https://www.linkedin.com/company/writewithlaika/",
     title: "Frontend Developer",
-    period: "2022 - 2022",
+    period: "2022",
     duties: [
       "Developed the initial version of Write with LAIKA, an AI-powered creative writing assistant, building the frontend with React and TypeScript.",
       "Built interfaces for AI-assisted writing workflows, collaborating with backend engineers on APIs and how generated content was presented within the writing experience.",
