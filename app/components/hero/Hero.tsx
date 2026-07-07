@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <header className={styles.header}>
       <Heading level={1}>Wioletta Gluza</Heading>
-      <p>Front-End Developer | React & TypeScript</p>
+      <p>Frontend Engineer - building AI products</p>
     </header>
   );
 };

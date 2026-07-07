@@ -19,7 +19,7 @@ export const Experience = () => {
                 >
                   {company}
                 </ExternalLink>
-                <span className={styles.title}> — {title}</span>
+                <span className={styles.title}> - {title}</span>
               </div>
               <span className={styles.period}>{period}</span>
             </div>
