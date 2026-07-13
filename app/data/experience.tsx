@@ -15,7 +15,7 @@ export const experience: Entry[] = [
         </ExternalLink>
         , Apron’s autonomous bookkeeping agent for accounting firms.
       </>,
-      "Contributing to the platform's foundations, including design-system components, data-layer migrations, and frontend reliability improvements.",
+      "Improving shared frontend systems through design-system components, data-layer migrations, and frontend reliability improvements.",
       "Represented Apron at Accountex, speaking with accounting professionals to understand their workflows and gather feedback that informed product decisions.",
     ],
     tags: [
@@ -45,7 +45,7 @@ export const experience: Entry[] = [
     period: "2022",
     duties: [
       "Developed the initial version of Write with LAIKA, an AI-powered creative writing assistant, building the frontend with React and TypeScript.",
-      "Built interfaces for AI-assisted writing workflows, collaborating with backend engineers on APIs and how generated content was presented within the writing experience.",
+      "Built interfaces for AI-assisted writing workflows, collaborating with backend engineers on API integration and the presentation of generated content within the writing experience.",
     ],
     tags: ["React", "TypeScript", "AI Applications", "REST APIs"],
   },
