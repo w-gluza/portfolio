@@ -16,7 +16,7 @@ export const experience: Entry[] = [
         , Apron’s autonomous bookkeeping agent for accounting firms.
       </>,
       "Improving shared frontend systems through design-system components, data-layer migrations, and frontend reliability improvements.",
-      "Represented Apron at Accountex, speaking with accounting professionals to understand their workflows and gather feedback that informed product decisions.",
+      "Represented Apron at Accountex, speaking directly with accounting professionals about their workflows and bringing their feedback into product discussions.",
     ],
     tags: [
       "React",
@@ -32,7 +32,7 @@ export const experience: Entry[] = [
     title: "Frontend Developer",
     period: "2022 - 2025",
     duties: [
-      "Introduced React to the codebase, establishing the foundations for the migration from a Ruby on Rails frontend to a modern React-based application.",
+      "Introduced React to the codebase, laying the foundations for the migration from a Ruby on Rails frontend to a modern React architecture.",
       "Built and evolved a shared React design system in Storybook, creating reusable components, design tokens, theming, and supporting utilities. The system was adopted and extended by the wider team over three years, with component test coverage established alongside it.",
       "Built product features across payment processing, payment network configuration, and financial reconciliation workflows for a regulated cross-border payments platform.",
     ],
@@ -56,7 +56,7 @@ export const experience: Entry[] = [
     period: "2019 - 2022",
     duties: [
       "Built core features for Too Good To Go's merchant platform, enabling food businesses across 15+ European markets to manage and sell their surplus food.",
-      "Developed the frontend experimentation framework and supported end-to-end A/B testing workflows, from implementing variants and analytics instrumentation to experiment rollout and cleanup.",
+      "Developed the frontend experimentation framework supporting end-to-end A/B testing workflows, from implementing variants and analytics instrumentation to experiment rollout and cleanup.",
       "Built partner-facing analytics dashboards, including sales performance and meals-saved insights, giving businesses visibility into their performance and food waste reduction impact.",
     ],
     tags: [

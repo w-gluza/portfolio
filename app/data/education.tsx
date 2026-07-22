@@ -4,7 +4,7 @@ export const education: Entry[] = [
   {
     name: "Aalborg University Copenhagen",
     url: "https://www.en.aau.dk/",
-    title: "MSc in Information Technology",
+    title: "MSc in Information Technology, Information Studies",
     period: "2020 - 2022",
     duties: [
       "Master Thesis: Development and Evaluation of a Chatbot Solution for Wikipedia Editors - built and usability-tested a conversational AI solution supporting the Wikipedia editor community.",

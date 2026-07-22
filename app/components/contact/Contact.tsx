@@ -10,7 +10,7 @@ export const Contact = () => (
       </ExternalLink>{" "}
       or check out my{" "}
       <ExternalLink href="https://github.com/w-gluza"> GitHub</ExternalLink> and{" "}
-      <ExternalLink href="/gluza_wioletta_cv.pdf"> resume</ExternalLink>. You
+      <ExternalLink href="/gluza_wioletta_cv.pdf"> CV</ExternalLink>. You
       can also reach me at{" "}
       <ExternalLink href="mailto:wiolagluza@gmail.com">
         wiolagluza@gmail.com

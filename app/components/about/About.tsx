@@ -16,7 +16,7 @@ export const About = () => (
       Throughout my career, I’ve worked on{" "}
       <Highlight>AI applications</Highlight>,{" "}
       <Highlight>design systems</Highlight>, experimentation, and products used
-      by businesses and users across different markets.
+      by businesses across different markets.
     </p>
 
     <p>
