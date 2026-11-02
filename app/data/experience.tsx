@@ -16,14 +16,15 @@ export const experience: Entry[] = [
         , Apron’s autonomous bookkeeping agent for accounting firms.
       </>,
       "Improving shared frontend systems through design-system components, data-layer migrations, and frontend reliability improvements.",
+      "Driving frontend observability across the product: production error monitoring and triage, feature flag lifecycle tracking, and dashboards that keep regressions visible.",
       "Represented Apron at Accountex, speaking directly with accounting professionals about their workflows and bringing their feedback into product discussions.",
     ],
     tags: [
       "React",
       "TypeScript",
-      "AI Applications",
+      "AI Agents",
       "Design Systems",
-      "User Research",
+      "Frontend Reliability",
     ],
   },
   {
