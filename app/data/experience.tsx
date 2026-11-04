@@ -5,7 +5,7 @@ export const experience: Entry[] = [
   {
     name: "Apron",
     url: "https://getapron.com",
-    title: "Frontend Engineer",
+    title: "Senior Frontend Engineer",
     period: "2025 - Present",
     duties: [
       <>
@@ -30,7 +30,7 @@ export const experience: Entry[] = [
   {
     name: "Inpay",
     url: "https://inpay.com",
-    title: "Frontend Developer",
+    title: "Senior Frontend Developer",
     period: "2022 - 2025",
     duties: [
       "Introduced React to the codebase, laying the foundations for the migration from a Ruby on Rails frontend to a modern React architecture.",
