@@ -10,3 +10,12 @@
   color: var(--color-black);
   margin-top: 0.5rem;
 }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
