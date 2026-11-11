@@ -6,11 +6,13 @@ import { Publications } from "./components/publications";
 import { Community } from "./components/community";
 import { Education } from "./components/education";
 import { Contact } from "./components/contact";
+import { StructuredData } from "./components/structured-data";
 import { Main, PageContainer } from "./common";
 
 export default function Home() {
   return (
     <PageContainer>
+      <StructuredData />
       <Hero />
       <Main>
         <About />

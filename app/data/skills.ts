@@ -3,6 +3,7 @@ export const skills = {
     "JavaScript",
     "TypeScript",
     "React",
+    "Next.js",
     "Redux",
     "SASS",
     "MUI",
