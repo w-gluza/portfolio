@@ -20,7 +20,7 @@ export const education: readonly Entry[] = [
     ],
   },
   {
-    name: "KEA",
+    name: "Copenhagen School of Design and Technology (KEA)",
     url: "https://www.ek.dk/",
     title: "AP Degree in Multimedia Design and Communication",
     period: "2017 - 2019",

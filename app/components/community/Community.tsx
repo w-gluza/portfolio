@@ -13,9 +13,12 @@ export const Community = () => (
       (2020).
     </p>
     <p>
-      Returned to <ExternalLink href="https://www.ek.dk/">KEA</ExternalLink> -
-      Copenhagen School of Design and Technology after completing my degree to
-      tutor and support students in web development.
+      Returned to{" "}
+      <ExternalLink href="https://www.ek.dk/">
+        Copenhagen School of Design and Technology (KEA)
+      </ExternalLink>{" "}
+      after completing my degree to tutor and support students in web
+      development (2019 - 2020).
     </p>
   </Article>
 );
