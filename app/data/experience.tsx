@@ -39,7 +39,7 @@ export const experience: readonly Entry[] = [
     tags: ["React", "TypeScript", "Design Systems", "Storybook", "Fintech"],
   },
   {
-    name: "ITU",
+    name: "IT University of Copenhagen",
     url: "https://www.linkedin.com/company/writewithlaika/",
     title: "Frontend Developer",
     period: "2022",
