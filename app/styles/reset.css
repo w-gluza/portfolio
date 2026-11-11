@@ -6,15 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 ul,
 ol {
   list-style: none;
@@ -23,7 +14,6 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
-  display: inline-block;
 }
 
 input,
@@ -32,7 +22,6 @@ button,
 select {
   background: none;
   border: none;
-  outline: none;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
