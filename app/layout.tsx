@@ -12,7 +12,7 @@ const jakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.wiola.dev"),
   alternates: { canonical: "/" },
-  title: "Wioletta Gluza - Senior Frontend Engineer",
+  title: "Wioletta Gluza - Senior Frontend Engineer, London",
   description:
     "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Wioletta Gluza", url: "https://github.com/w-gluza" }],
   creator: "Wioletta Gluza",
   openGraph: {
-    title: "Wioletta Gluza - Senior Frontend Engineer",
+    title: "Wioletta Gluza - Senior Frontend Engineer, London",
     description:
       "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
     url: "/",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wioletta Gluza - Senior Frontend Engineer",
+    title: "Wioletta Gluza - Senior Frontend Engineer, London",
     description:
       "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
   },
