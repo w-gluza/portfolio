@@ -8,8 +8,8 @@ export const Community = () => (
       <ExternalLink href="https://www.linkedin.com/company/girls-in-it-zealand/">
         Piger i IT
       </ExternalLink>{" "}
-      (&ldquo;Girls in IT&rdquo;), a Danish initiative encouraging more women
-      to pursue careers in technology, in collaboration with Zealand Academy
+      (&ldquo;Girls in IT&rdquo;), a Danish initiative encouraging more women to
+      pursue careers in technology, in collaboration with Zealand Academy
       (2020).
     </p>
     <p>
