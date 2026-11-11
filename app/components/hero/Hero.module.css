@@ -1,21 +1,20 @@
 .header {
   text-align: center;
-  margin-bottom: 4rem;
-  border-bottom: 2px solid var(--color-black);
-  padding-bottom: 1rem;
+  margin-block-end: var(--space-16);
+  border-block-end: var(--line-strong) solid var(--color-text);
+  padding-block-end: var(--space-4);
 }
 
 .tagline {
-  font-size: 1.2rem;
-  color: var(--color-black);
-  margin-top: 0.5rem;
+  font-size: var(--text-md);
+  margin-block-start: var(--space-2);
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.25rem 1rem;
-  margin-top: 0.5rem;
-  font-size: 0.8rem;
+  gap: var(--space-1) var(--space-4);
+  margin-block-start: var(--space-2);
+  font-size: var(--text-sm);
 }

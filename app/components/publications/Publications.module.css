@@ -1,26 +1,26 @@
 .entry {
-  margin-bottom: 1.5rem;
+  margin-block-end: var(--space-6);
 }
 
 .title {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  gap: var(--space-1);
+  font-size: var(--text-md);
   font-weight: var(--weight-bold);
-  margin-bottom: 0.5rem;
+  margin-block-end: var(--space-2);
 }
 
 .details {
-  margin: 0.75rem 0px;
-  padding-left: 1.25rem;
+  margin-block: var(--space-3);
+  padding-inline-start: var(--space-5);
   list-style: circle;
 }
 
 .details li {
-  margin-bottom: 0.5rem;
+  margin-block-end: var(--space-2);
 }
 
 .description {
-  margin-top: 0.75rem;
+  margin-block-start: var(--space-3);
 }

@@ -1,14 +1,14 @@
 .page {
-  width: 100%;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+  margin-inline: auto;
+  padding-block: var(--space-8);
+  padding-inline: var(--space-4);
   line-height: 1.75;
-  box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+@media (width >= 48em) {
   .page {
-    padding: 4rem 2rem;
-    max-width: 864px;
+    padding-block: var(--space-16);
+    padding-inline: var(--space-8);
+    max-inline-size: 54rem;
   }
 }

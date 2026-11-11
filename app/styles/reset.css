@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ul,
@@ -16,23 +16,21 @@ a {
   color: inherit;
 }
 
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
 input,
 textarea,
 button,
 select {
-  background: none;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
+  font: inherit;
   color: inherit;
 }
 
 img {
-  max-width: 100%;
   display: block;
-}
-
-button,
-a {
-  cursor: pointer;
+  max-inline-size: 100%;
 }

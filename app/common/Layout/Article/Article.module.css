@@ -1,5 +1,5 @@
 .article {
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--color-gray-300);
+  margin-block-end: var(--space-12);
+  padding-block-end: var(--space-8);
+  border-block-end: var(--line) solid var(--color-border);
 }

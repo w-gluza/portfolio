@@ -1,19 +1,10 @@
 .skillGroup {
-  margin-bottom: 2rem;
-}
-
-.skillGroup h3 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  font-weight: var(--weight-semibold);
-  letter-spacing: 0.3px;
-  text-transform: uppercase;
+  margin-block-end: var(--space-8);
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-  padding: 0;
+  gap: var(--space-2);
+  margin-block-start: var(--space-2);
 }

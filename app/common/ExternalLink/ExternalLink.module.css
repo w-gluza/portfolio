@@ -1,33 +1,23 @@
 .base {
   font-weight: var(--weight-semibold);
-  color: var(--color-black);
+  color: var(--color-text);
   text-decoration: none;
 }
 
 .primary {
-  border-bottom: 1px solid var(--color-black);
+  border-block-end: var(--line) solid var(--color-text);
   transition:
     background-color 0.2s ease,
     color 0.2s ease,
     box-shadow 0.2s ease;
 }
 
-.primary:visited {
-  color: var(--color-black);
-}
-
-.primary:hover {
-  background: var(--color-black);
-  color: var(--color-white);
-  box-shadow: 0 0 0 0.2rem var(--color-black);
-}
-
 .primary:focus-visible {
-  outline: 2px dashed var(--color-black);
-  outline-offset: calc(0.2rem + 3px);
-  background: var(--color-black);
-  color: var(--color-white);
-  box-shadow: 0 0 0 0.2rem var(--color-black);
+  outline: var(--line-strong) dashed var(--color-text);
+  outline-offset: calc(var(--focus-gap) * 2);
+  background: var(--color-text);
+  color: var(--color-surface);
+  box-shadow: 0 0 0 var(--focus-gap) var(--color-text);
 }
 
 .secondary {
@@ -38,49 +28,74 @@
 .secondary::after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 1px;
-  background-color: var(--color-black);
+  inset-inline: 0;
+  inset-block-end: calc(var(--line-strong) * -1);
+  block-size: var(--line);
+  background-color: var(--color-text);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
 }
 
-.secondary:hover::after {
-  transform: scaleX(1);
-}
-
 .secondary:focus-visible {
-  outline: 2px dashed var(--color-black);
-  outline-offset: 3px;
+  outline: var(--line-strong) dashed var(--color-text);
+  outline-offset: var(--focus-gap);
 }
 
 .icon {
   display: inline-block;
-  width: 0.85rem;
-  height: 0.85rem;
+  inline-size: 0.85rem;
+  block-size: 0.85rem;
   opacity: 0.6;
   transition:
     transform 0.2s ease,
     opacity 0.2s ease;
-  margin-left: 0.25rem;
+  margin-inline-start: var(--space-1);
 }
 
-.base:hover .icon {
-  transform: translateY(-1px);
-  opacity: 1;
+@media (hover: hover) {
+  .primary:hover {
+    background: var(--color-text);
+    color: var(--color-surface);
+    box-shadow: 0 0 0 var(--focus-gap) var(--color-text);
+  }
+
+  .secondary:hover::after {
+    transform: scaleX(1);
+  }
+
+  .base:hover .icon {
+    transform: translateY(calc(var(--line) * -1));
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .secondary::after {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .secondary::after {
+    transition: none;
+  }
+
+  .icon {
+    transition: opacity 0.2s ease;
+  }
+
+  .base:hover .icon {
+    transform: none;
+  }
 }
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
+  inline-size: 1px;
+  block-size: 1px;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
-  border: 0;
 }
