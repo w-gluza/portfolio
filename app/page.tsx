@@ -19,8 +19,8 @@ export default function Home() {
         <Education />
         <Community />
         <Skills />
-        <Contact />
       </Main>
+      <Contact />
     </PageContainer>
   );
 }

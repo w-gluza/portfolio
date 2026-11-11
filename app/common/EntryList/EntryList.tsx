@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import styles from "./EntryList.module.css";
 import { ExternalLinkIcon } from "../../assets/icons";
 import { ExternalLink } from "../ExternalLink/ExternalLink";
@@ -9,16 +9,16 @@ export interface Entry {
   url: string;
   title: string;
   period: string;
-  duties?: ReactNode[];
-  tags?: string[];
+  duties?: readonly ReactNode[];
+  tags?: readonly string[];
 }
 
-export const EntryList = ({ entries }: { entries: Entry[] }) => (
+export const EntryList = ({ entries }: { entries: readonly Entry[] }) => (
   <ul className={styles.list}>
     {entries.map(({ name, url, title, period, duties, tags }) => (
       <li key={`${name}-${period}`} className={styles.entry}>
         <div className={styles.header}>
-          <div className={styles.meta}>
+          <h3 className={styles.meta}>
             <ExternalLink
               href={url}
               variant="secondary"
@@ -27,7 +27,7 @@ export const EntryList = ({ entries }: { entries: Entry[] }) => (
               {name}
             </ExternalLink>
             <span className={styles.title}> - {title}</span>
-          </div>
+          </h3>
           <span className={styles.period}>{period}</span>
         </div>
 
