@@ -2,7 +2,7 @@ import { Heading, Article, Highlight } from "../../common";
 
 export const About = () => (
   <Article>
-    <Heading level={2}>About Me</Heading>
+    <Heading level={2}>About</Heading>
     <p>
       Hello, I’m Wioletta - a frontend engineer with{" "}
       <Highlight>7+ years of experience</Highlight> building web applications

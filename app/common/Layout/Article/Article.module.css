@@ -3,3 +3,7 @@
   padding-block-end: var(--space-8);
   border-block-end: var(--line) solid var(--color-border);
 }
+
+.article > :last-child {
+  margin-block-end: 0;
+}

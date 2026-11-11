@@ -26,16 +26,14 @@ export const Publications = () => (
           2021.
         </li>
         <li>
-          Published in the ACM Digital Library · 15 October 2021 ·{" "}
-          <ExternalLink href="https://doi.org/10.1145/3479986.3479994">
-            DOI: 10.1145/3479986.3479994
-          </ExternalLink>
-          .
+          Published in the ACM Digital Library · 15 October 2021 · DOI:
+          10.1145/3479986.3479994.
         </li>
+        <li>Authors: Gluza, W., Turaj, I. A., & Meier, F.</li>
       </ul>
       <p className={styles.description}>
-        Gluza, W., Turaj, I. A., & Meier, F. Research exploring participation
-        and contributor experiences within Wikipedia edit-a-thons.
+        Research exploring participation and contributor experiences within
+        Wikipedia edit-a-thons.
       </p>
     </div>
   </Article>

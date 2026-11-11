@@ -23,5 +23,5 @@
 }
 
 .description {
-  margin-block-start: var(--space-3);
+  margin-block: var(--space-3) 0;
 }
