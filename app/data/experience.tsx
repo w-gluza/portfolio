@@ -29,7 +29,7 @@ export const experience: readonly Entry[] = [
   {
     name: "Inpay",
     url: "https://inpay.com",
-    title: "Senior Frontend Developer",
+    title: "Frontend Developer",
     period: "2022 - 2025",
     duties: [
       "Introduced React to the codebase, laying the foundations for the migration from a Ruby on Rails frontend to a modern React architecture.",
