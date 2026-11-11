@@ -1,27 +1,23 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./styles/reset.css";
 import "./styles/globals.css";
 
 const jakartaSans = Plus_Jakarta_Sans({
   variable: "--font-sans",
-  weight: ["400", "500", "600", "700"],
-  subsets: ["latin"],
-});
-
-const jetBrainsMono = JetBrains_Mono({
-  variable: "--font-mono",
-  weight: ["400", "700"],
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Wioletta Gluza - Front-End Developer",
+  metadataBase: new URL("https://www.wiola.dev"),
+  alternates: { canonical: "/" },
+  title: "Wioletta Gluza - Senior Frontend Engineer",
   description:
-    "Experienced Front-End Developer specializing in React and TypeScript. Based in London. Let's build something great together.",
+    "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
   keywords: [
-    "Front-End Developer",
+    "Senior Frontend Engineer",
+    "AI Products",
     "React",
     "TypeScript",
     "Next.js",
@@ -35,19 +31,19 @@ export const metadata: Metadata = {
   authors: [{ name: "Wioletta Gluza", url: "https://github.com/w-gluza" }],
   creator: "Wioletta Gluza",
   openGraph: {
-    title: "Wioletta Gluza - Front-End Developer",
+    title: "Wioletta Gluza - Senior Frontend Engineer",
     description:
-      "Experienced Front-End Developer specializing in React and TypeScript. Based in London.",
-    url: "https://www.wiola.dev/",
+      "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
+    url: "/",
     siteName: "Wioletta Gluza Portfolio",
     locale: "en_GB",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Wioletta Gluza - Front-End Developer",
+    title: "Wioletta Gluza - Senior Frontend Engineer",
     description:
-      "Experienced Front-End Developer specializing in React and TypeScript. Based in London.",
+      "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
   },
 };
 
@@ -57,8 +53,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${jakartaSans.variable} ${jetBrainsMono.variable}`}>
+    <html lang="en-GB">
+      <body className={jakartaSans.variable}>
         {children}
         <Analytics />
       </body>
