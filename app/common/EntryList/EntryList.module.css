@@ -21,6 +21,7 @@
   flex-wrap: wrap;
   gap: var(--space-1);
   font-size: var(--text-md);
+  line-height: var(--leading-snug);
   font-weight: var(--weight-bold);
 }
 

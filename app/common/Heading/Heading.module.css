@@ -1,3 +1,9 @@
+.h1,
+.h2,
+.h3 {
+  line-height: var(--leading-tight);
+}
+
 .h1 {
   font-size: var(--text-xl);
   letter-spacing: -0.015em;
