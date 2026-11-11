@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Wioletta Gluza - Senior Frontend Engineer",
     description:
       "Senior Frontend Engineer building AI products with React and TypeScript. Based in London.",
