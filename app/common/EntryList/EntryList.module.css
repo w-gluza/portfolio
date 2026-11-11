@@ -1,5 +1,4 @@
 .list {
-  list-style: none;
   padding: 0;
   margin-bottom: 1.5rem;
 }
@@ -55,7 +54,6 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.5rem;
-  list-style: none;
 }
 
 @media (max-width: 600px) {

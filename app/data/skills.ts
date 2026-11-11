@@ -1,6 +1,4 @@
-export type SkillCategory = Record<string, string[]>;
-
-export const skills: SkillCategory = {
+export const skills = {
   "Languages & Frameworks": [
     "JavaScript",
     "TypeScript",
@@ -30,4 +28,4 @@ export const skills: SkillCategory = {
   "Code Standards": ["ESLint", "Prettier", "Linting Pipelines"],
   "AI Tools": ["Claude", "GitHub Copilot"],
   Collaboration: ["Agile", "Jira", "Confluence"],
-};
+} as const satisfies Record<string, readonly string[]>;

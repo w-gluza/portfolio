@@ -1,6 +1,6 @@
-import { Entry } from "../common/EntryList/EntryList";
+import type { Entry } from "../common";
 
-export const education: Entry[] = [
+export const education: readonly Entry[] = [
   {
     name: "Aalborg University Copenhagen",
     url: "https://www.en.aau.dk/",

@@ -1,8 +1,4 @@
 :root {
-  /* Fonts */
-  --font-sans: "Plus Jakarta Sans", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
-
   /* Font Weights */
   --weight-regular: 400;
   --weight-medium: 500;
@@ -28,10 +24,4 @@ body {
 p {
   line-height: 1.7;
   margin-bottom: 1.25rem;
-}
-
-code,
-pre,
-.mono {
-  font-family: var(--font-mono), monospace;
 }

@@ -1,5 +1,6 @@
 export { ExternalLink } from "./ExternalLink/ExternalLink";
 export { EntryList } from "./EntryList/EntryList";
+export type { Entry } from "./EntryList/EntryList";
 export { Heading } from "./Heading/Heading";
 export { Highlight } from "./Highlight/Highlight";
 export { Tag } from "./Tag/Tag";

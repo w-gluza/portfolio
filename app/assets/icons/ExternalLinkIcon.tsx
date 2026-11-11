@@ -1,22 +1,10 @@
-import { SVGProps } from "react";
+import type { SVGProps } from "react";
 
-type ExternalLinkIconProps = {
-  className?: string;
-  width?: number | string;
-  height?: number | string;
-};
-
-export const ExternalLinkIcon = ({
-  className,
-  width = 12,
-  height = 12,
-  ...props
-}: ExternalLinkIconProps & SVGProps<SVGSVGElement>) => (
+export const ExternalLinkIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    className={className}
     xmlns="http://www.w3.org/2000/svg"
-    width={width}
-    height={height}
+    width={12}
+    height={12}
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"

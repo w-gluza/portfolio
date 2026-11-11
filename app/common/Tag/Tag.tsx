@@ -1,12 +1,10 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import styles from "./Tag.module.css";
-import clsx from "clsx";
 
 type TagProps = {
   children: ReactNode;
-  className?: string;
 };
 
-export const Tag = ({ children, className }: TagProps) => {
-  return <span className={clsx(styles.tag, className)}>{children}</span>;
+export const Tag = ({ children }: TagProps) => {
+  return <span className={styles.tag}>{children}</span>;
 };

@@ -5,7 +5,9 @@ export const Hero = () => {
   return (
     <header className={styles.header}>
       <Heading level={1}>Wioletta Gluza</Heading>
-      <p>Senior Frontend Engineer - building AI products</p>
+      <p className={styles.tagline}>
+        Senior Frontend Engineer - building AI products
+      </p>
       <ul className={styles.links}>
         <li>
           <ExternalLink href="/gluza_wioletta_cv.pdf">CV</ExternalLink>

@@ -1,17 +1,10 @@
-import { ReactNode } from "react";
-import clsx from "clsx";
+import type { ReactNode } from "react";
 import styles from "./Highlight.module.css";
 
 type HighlightProps = {
   children: ReactNode;
-  className?: string;
-  variant?: "base" | "underline" | "caps";
 };
 
-export const Highlight = ({
-  children,
-  className,
-  variant = "base",
-}: HighlightProps) => {
-  return <span className={clsx(styles[variant], className)}>{children}</span>;
+export const Highlight = ({ children }: HighlightProps) => {
+  return <span className={styles.base}>{children}</span>;
 };

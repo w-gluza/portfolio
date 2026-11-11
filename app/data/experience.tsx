@@ -1,7 +1,6 @@
-import { ExternalLink } from "../common";
-import { Entry } from "../common/EntryList/EntryList";
+import { ExternalLink, type Entry } from "../common";
 
-export const experience: Entry[] = [
+export const experience: readonly Entry[] = [
   {
     name: "Apron",
     url: "https://getapron.com",
@@ -56,7 +55,7 @@ export const experience: Entry[] = [
     title: "Frontend Developer",
     period: "2019 - 2022",
     duties: [
-      "Built core features for Too Good To Go's merchant platform, enabling food businesses across 15+ European markets to manage and sell their surplus food.",
+      "Built core features for Too Good To Go’s merchant platform, enabling food businesses across 15+ European markets to manage and sell their surplus food.",
       "Developed the frontend experimentation framework supporting end-to-end A/B testing workflows, from implementing variants and analytics instrumentation to experiment rollout and cleanup.",
       "Built partner-facing analytics dashboards, including sales performance and meals-saved insights, giving businesses visibility into their performance and food waste reduction impact.",
     ],

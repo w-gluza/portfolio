@@ -29,12 +29,3 @@
   font-weight: var(--weight-semibold);
   margin-bottom: 0.75rem;
 }
-
-.h4,
-.h5,
-.h6 {
-  font-size: clamp(1rem, 3vw, 1.2rem);
-  color: var(--color-black);
-  font-weight: var(--weight-medium);
-  margin-bottom: 0.5rem;
-}

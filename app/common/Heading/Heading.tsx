@@ -1,15 +1,13 @@
-import { ReactNode, ElementType, JSX } from "react";
-import clsx from "clsx";
+import type { ReactNode } from "react";
 import styles from "./Heading.module.css";
 
 type HeadingProps = {
-  level?: 1 | 2 | 3 | 4 | 5 | 6;
+  level?: 1 | 2 | 3;
   children: ReactNode;
-  className?: string;
 };
 
-export const Heading = ({ level = 2, children, className }: HeadingProps) => {
-  const Tag = `h${level}` as keyof JSX.IntrinsicElements as ElementType;
+export const Heading = ({ level = 2, children }: HeadingProps) => {
+  const HeadingTag = `h${level}` as const;
 
-  return <Tag className={clsx(styles[`h${level}`], className)}>{children}</Tag>;
+  return <HeadingTag className={styles[HeadingTag]}>{children}</HeadingTag>;
 };
