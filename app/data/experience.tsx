@@ -22,8 +22,8 @@ export const experience: readonly Entry[] = [
       "React",
       "TypeScript",
       "AI Agents",
-      "Design Systems",
-      "Frontend Reliability",
+      "Observability",
+      "Agentic Workflows",
     ],
   },
   {
@@ -36,7 +36,7 @@ export const experience: readonly Entry[] = [
       "Built and evolved a shared React design system in Storybook, creating reusable components, design tokens, theming, and supporting utilities. The system was adopted and extended by the wider team over three years, with component test coverage established alongside it.",
       "Built product features across payment processing, payment network configuration, and financial reconciliation workflows for a regulated cross-border payments platform.",
     ],
-    tags: ["React", "TypeScript", "Design Systems", "Storybook", "Fintech"],
+    tags: ["React", "TypeScript", "Design Systems", "Interaction Design"],
   },
   {
     name: "IT University of Copenhagen",
@@ -47,7 +47,7 @@ export const experience: readonly Entry[] = [
       "Developed the initial version of Write with LAIKA, an AI-powered creative writing assistant, building the frontend with React and TypeScript.",
       "Built interfaces for AI-assisted writing workflows, collaborating with backend engineers on API integration and the presentation of generated content within the writing experience.",
     ],
-    tags: ["React", "TypeScript", "AI Applications", "REST APIs"],
+    tags: ["React", "TypeScript", "AI Applications"],
   },
   {
     name: "Too Good To Go",
