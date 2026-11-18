@@ -2,6 +2,7 @@ import { isValidElement, type ReactNode } from "react";
 import type { Entry } from "../common";
 import { education } from "../data/education";
 import { experience } from "../data/experience";
+import { projects } from "../data/projects";
 import { skills } from "../data/skills";
 
 export const dynamic = "force-static";
@@ -56,6 +57,10 @@ const document = [
   "## Experience",
   "",
   experience.map(formatEntry).join("\n\n"),
+  "",
+  "## Projects",
+  "",
+  projects.map(formatEntry).join("\n\n"),
   "",
   "## Education",
   "",
